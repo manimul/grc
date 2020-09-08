@@ -14,8 +14,8 @@ function Header() {
   `);
 
   return (
-    <header className="bg-teal-700">
-      <div className="flex flex-wrap items-center justify-between max-w-4xl p-4 mx-auto md:p-8">
+    <header className="bg-blue-900">
+      <div className="flex flex-wrap items-center justify-between max-w-6xl p-4 mx-auto md:p-8">
         <Link to="/">
           <h1 className="flex items-center text-white no-underline">
             <svg
@@ -53,13 +53,30 @@ function Header() {
           } md:block md:items-center w-full md:w-auto`}
         >
           {[
-            {
-              route: `/about`,
-              title: `About`,
+             {
+              route: `/`,
+              title: `Home`,
             },
             {
+              route: `/story`,
+              title: `The Story`,
+            },
+            {
+              route: `/our-concept`,
+              title: `Our Concept`,
+            },
+            {
+              route: `/team`,
+              title: `Who are we`,
+            },
+            {
+              route: `/news`,
+              title: `News`,
+            },
+           
+            {
               route: `/contact`,
-              title: `Contact`,
+              title: `Contact Us`,
             },
           ].map((link) => (
             <Link
