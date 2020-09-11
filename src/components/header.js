@@ -14,7 +14,7 @@ function Header() {
   `);
 
   return (
-    <header className="bg-blue-900">
+    <header className="bg-gradient-to-r from-grc-navy  to-grc-navy  z-50 fixed w-full">
       <div className="flex flex-wrap items-center justify-between md:px-24 md:py-8 mx-auto p-4">
         <Link to="/">
           <h1 className="flex items-center text-white no-underline">
