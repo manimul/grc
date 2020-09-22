@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import React from "react";
 import Logo from "../images/grc-logo.svg";
 
-import Header from "./Header";
+import Header from "./header";
 
 function Layout({ children }) {
   return (
