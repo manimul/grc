@@ -1,5 +1,7 @@
 import { graphql, useStaticQuery, Link } from "gatsby";
 import React, { useState } from "react";
+import Headroom from "react-headroom";
+import Logo from "../images/grc-logo.svg";
 
 function Header() {
   const [isExpanded, toggleExpansion] = useState(false);
@@ -14,23 +16,15 @@ function Header() {
   `);
 
   return (
-    <header className="bg-gradient-to-r from-grc-navy  to-grc-navy  z-50 fixed w-full">
-      <div className="flex flex-wrap items-center justify-between md:px-24 md:py-8 mx-auto p-4">
+    <Headroom id="nav" className=" z-50  w-full">
+      <div className="flex flex-wrap items-center justify-between md:px-24 md:py-8 mx-auto p-4  bg-grc-navy ">
         <Link to="/">
-          <h1 className="flex items-center text-white no-underline">
-            <svg
-              className="w-8 h-8 mr-2 fill-current"
-              height="54"
-              viewBox="0 0 54 54"
-              width="54"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z" />
-            </svg>
-            <span className="text-xl font-bold tracking-tight">
-              {site.siteMetadata.title}
-            </span>
-          </h1>
+          <div className="flex items-center ">
+            <Logo
+              alt={site.siteMetadata.title}
+              className="w-32 md:w-48 align-top h-auto"
+            />
+          </div>
         </Link>
 
         <button
@@ -53,7 +47,7 @@ function Header() {
           } md:block md:items-center w-full md:w-auto`}
         >
           {[
-             {
+            {
               route: `/`,
               title: `Home`,
             },
@@ -73,14 +67,15 @@ function Header() {
               route: `/news`,
               title: `News`,
             },
-           
+
             {
               route: `/contact`,
               title: `Contact Us`,
             },
           ].map((link) => (
             <Link
-              className="block mt-4 text-white no-underline md:inline-block md:mt-0 md:ml-6"
+              className="block mt-4 text-white opacity-75 pb-2 no-underline md:inline-block md:mt-0 md:ml-6"
+              activeClassName="font-bold opacity-100 border-b-2    "
               key={link.title}
               to={link.route}
             >
@@ -89,7 +84,7 @@ function Header() {
           ))}
         </nav>
       </div>
-    </header>
+    </Headroom>
   );
 }
 

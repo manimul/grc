@@ -13,14 +13,33 @@ module.exports = {
     `gatsby-plugin-eslint`,
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
     `gatsby-plugin-smoothscroll`,
+
+    {
+      resolve: `gatsby-plugin-sharp`,
+      options: {
+        // Available options and their defaults:
+        base64Width: 20,
+        forceBase64Format: ``, // valid formats: png,jpg,webp
+        useMozJpeg: process.env.GATSBY_JPEG_ENCODER === `MOZJPEG`,
+        stripMetadata: true,
+        defaultQuality: 50,
+      },
+    },
+    {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: /images\/.*\.svg/,
+        },
+      },
+    },
 
     {
       resolve: "gatsby-plugin-anchor-links",
       options: {
-        offset: -100
-      }
+        offset: -100,
+      },
     },
     {
       resolve: `gatsby-source-filesystem`,
@@ -42,10 +61,10 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-background-image-es5',
+      resolve: "gatsby-background-image-es5",
       options: {
         // add your own characters to escape, replacing the default ':/'
-        specialChars: '/:',
+        specialChars: "/:",
       },
     },
     {

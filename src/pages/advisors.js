@@ -1,10 +1,11 @@
 import React from "react";
+
 import Layout from "../components/Layout";
 import SEO from "../components/Seo";
 import HeroSmall from "../components/HeroSmall";
-import TeamGrid from "../components/TeamGrid";
+import AdvisorGrid from "../components/AdvisoryGrid";
 
-function TeamPage() {
+function AdvisorPage() {
   return (
     <Layout>
       <SEO
@@ -12,14 +13,15 @@ function TeamPage() {
         title="About"
       />
       <HeroSmall
-        title="Our Team"
+        title="Our Advsiors"
         heading="Passionate experts. Meet the people behind Global River Center. "
         linkTo="/team#intro"
         singleNav={false}
       ></HeroSmall>
-      <TeamGrid fullPage={true} id="team-intro"></TeamGrid>
+
+      <AdvisorGrid></AdvisorGrid>
     </Layout>
   );
 }
 
-export default TeamPage;
+export default AdvisorPage;
