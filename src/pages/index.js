@@ -1,6 +1,6 @@
 import React from "react";
-import Layout from "../components/Layout";
-import SEO from "../components/Seo";
+import Layout from "../components/layout";
+import SEO from "../components/seo";
 import CtaNews from "../components/CtaNewsletter";
 import BackgroundImage from "gatsby-background-image";
 import { graphql, StaticQuery, Link } from "gatsby";

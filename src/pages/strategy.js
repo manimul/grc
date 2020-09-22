@@ -1,6 +1,6 @@
 import React from "react";
-import Layout from "../components/Layout";
-import SEO from "../components/Seo";
+import Layout from "../components/layout";
+import SEO from "../components/seo";
 import HeroSmall from "../components/HeroSmall";
 import Image from "../components/Image";
 import { Link } from "gatsby";
