@@ -98,7 +98,7 @@ const ConceptSection = (props) => {
               <h3 className="inline-block text-xl  mb-1 text-black text-opacity-50 uppercase">
                 The Infrastructure
               </h3>
-              <p className="inline-block text-4xl font-bold mb-4 leading-tight">
+              <p className="inline-block text-xl md:text-4xl font-bold mb-4 leading-tight">
                 Each River Center has a state-of-the-art sustainable
                 infrastructural design with a minimum size of 2000m2.
               </p>
@@ -278,7 +278,7 @@ const ConceptSection = (props) => {
                 <h2 className="block text-xl  mb-1 text-black text-opacity-50 uppercase">
                   Our Concept
                 </h2>
-                <p className="inline-block text-4xl  font-bold mb-4">
+                <p className="inline-block text-xl md:text-4xl  font-bold mb-4">
                   Our Global River Center concept is an innovative and creative
                   combination of needed elements in a cutting-edge sustainable
                   building
@@ -293,12 +293,12 @@ const ConceptSection = (props) => {
                 <BackgroundImage
                   Tag={`section`}
                   id={`test`}
-                  className={"col-span-1 p-4 pb-32"}
+                  className={"md:col-span-1  p-4 pb-32  m-4 md:m-0"}
                   fluid={infrastructureImg}
                 >
-                  <div className="bg-grc-navy  inline-block p-6 w-1/2 ">
+                  <div className="bg-grc-navy  inline-block p-6 w-3/4 md:w-1/2 ">
                     <h3 className="font-bold text-xl">
-                      River<br></br> Center<br></br> Infrastructure
+                      River<br></br> Center<br></br> Infrastructures
                     </h3>
                     <p className="text-sm my-4">
                       An environment designed to support local trade...
@@ -315,10 +315,10 @@ const ConceptSection = (props) => {
                 <BackgroundImage
                   Tag={`section`}
                   id={`test`}
-                  className={"col-span-1  p-4 pb-32"}
+                  className={"col-span-1  p-4 pb-32 "}
                   fluid={healthImg}
                 >
-                  <div className="bg-grc-light-blue inline-block p-6 w-1/2">
+                  <div className="bg-grc-light-blue inline-block p-6 w-3/4 md:w-1/2">
                     <h3 className="font-bold text-xl">
                       River<br></br> Center <br></br> Health
                     </h3>
@@ -341,7 +341,7 @@ const ConceptSection = (props) => {
                   className={"col-span-1 p-4 pb-32"}
                   fluid={tradingImg}
                 >
-                  <div className="bg-grc-blue  inline-block p-6 w-1/2">
+                  <div className="bg-grc-blue  inline-block p-6 w-3/4 md:w-1/2">
                     <h3 className="font-bold text-xl">
                       River<br></br> Trading <br></br> Hub
                     </h3>
@@ -363,7 +363,7 @@ const ConceptSection = (props) => {
                   className={"col-span-1 p-4 pb-32"}
                   fluid={communityImg}
                 >
-                  <div className="bg-grc-green inline-block p-6 w-1/2">
+                  <div className="bg-grc-green inline-block p-6 w-3/4 md:w-1/2">
                     <h3 className="font-bold text-xl">
                       River<br></br> Community <br></br>Hub
                     </h3>
@@ -385,7 +385,7 @@ const ConceptSection = (props) => {
                   className={"col-span-1 p-4 pb-32"}
                   fluid={entertainmentImg}
                 >
-                  <div className="bg-grc-red  inline-block p-6 w-1/2">
+                  <div className="bg-grc-red  inline-block p-6 w-3/4 md:w-1/2">
                     <h3 className="font-bold text-xl">
                       River <br></br>Entertainment<br></br> Hub
                     </h3>
@@ -407,7 +407,7 @@ const ConceptSection = (props) => {
                   className={"col-span-1 p-4 pb-32 "}
                   fluid={educationImg}
                 >
-                  <div className="bg-grc-yellow  inline-block p-6 w-1/2">
+                  <div className="bg-grc-yellow  inline-block p-6 w-3/4 md:w-1/2">
                     <h3 className="font-bold  text-xl">
                       River<br></br> Education<br></br> Hub
                     </h3>

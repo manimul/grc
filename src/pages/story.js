@@ -18,12 +18,12 @@ function StoryPage() {
         title="About"
       />
 
-      <section className="[story_hero] p-24 cta_blue_shapes text-white text-center  ">
-        <div className="max-w-4xl m-auto py-24">
+      <section className="[story_hero] p-12 md:p-24 cta_blue_shapes text-white text-center  ">
+        <div className="max-w-4xl m-auto py-12 md:py-24">
           <h2 className="block text-xl  mb-1 text-white text-opacity-50 uppercase">
             Our Story
           </h2>
-          <p className="block text-5xl   leading-tight font-bold mb-4">
+          <p className="block text-2xl md:text-5xl   leading-tight font-bold mb-4">
             We are building better futures for young people in non-urban Africa.
             Here’s why.
           </p>
@@ -37,17 +37,20 @@ function StoryPage() {
         </div>
       </section>
 
-      <section id="why" className="[vision] grid grid-cols-2 min-h-screen/2/3">
+      <section
+        id="why"
+        className="[vision] md:grid grid-cols-2 min-h-screen/2/3"
+      >
         <Image
           filename="story-why.jpeg"
           className="h-auto w-full object-cover object-center"
         ></Image>
 
-        <div className="p-24 max-w-2xl">
+        <div className="p-12 md:p-24 max-w-2xl">
           <h2 className="inline-block text-xl  mb-1 text-black text-opacity-50 uppercase">
             Why?
           </h2>
-          <p className="inline-block text-4xl font-bold mb-4 leading-tight">
+          <p className="inline-block text-xl md:text-4xl font-bold mb-4 leading-tight">
             Africa is urbanising at an unsustainable pace
           </p>
 
@@ -68,9 +71,9 @@ function StoryPage() {
         </div>
       </section>
 
-      <section className="[cta_] p-24 cta_green_wiggles text-white text-center ">
-        <div className="max-w-4xl m-auto">
-          <p className="inline-block text-4xl font-bold mb-4">
+      <section className="[cta_] p-12 md:p-24 cta_green_wiggles text-white text-center ">
+        <div className="md:max-w-4xl m-auto">
+          <p className="inline-block text-xl md:text-4xl font-bold mb-4">
             We wanted to do something to offset this migration. We developed a
             vision
           </p>
@@ -86,13 +89,13 @@ function StoryPage() {
 
       <section
         id="our-vision"
-        className="[vision] grid grid-cols-2 min-h-screen/2/3 "
+        className="[vision] md:grid grid-cols-2 min-h-screen/2/3 "
       >
-        <div className="p-24 max-w-2xl">
+        <div className="p-12 md:p-24 md:max-w-2xl">
           <h2 className="inline-block text-xl  mb-1 text-black text-opacity-50 uppercase">
             Our Vision
           </h2>
-          <p className="inline-block text-4xl font-bold mb-4 leading-tight">
+          <p className="inline-block text-xl md:text-4xl font-bold mb-4 leading-tight">
             We believe we can improve the the quality of life for citizens in
             non-urban sub-Saharan Africa by building 200 Global River Centers
           </p>
@@ -121,7 +124,7 @@ function StoryPage() {
 
       <section className="[cta_strategy] p-24 cta_blue_wiggles  text-white text-center">
         <div className="max-w-4xl m-auto">
-          <p className="inline-block text-4xl font-bold mb-4">
+          <p className="inline-block text-xl md:text-4xl font-bold mb-4">
             Our concept is an innovative and creative combination of needed
             elements in a cutting-edge sustainable building
           </p>

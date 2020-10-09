@@ -7,6 +7,10 @@
 * ----------------------------------------------
 **/
 
+.headroom--pinned.headroom--scrolled {
+  background-color: #11204d;
+}
+
 .h_fit_content {
   height: fit-content;
 }

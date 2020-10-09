@@ -1,4 +1,5 @@
 // See https://tailwindcss.com/docs/configuration for details
+
 module.exports = {
   purge: ["./src/**/*.js"],
   theme: {
@@ -20,6 +21,10 @@ module.exports = {
       "screen/2/3": "calc(100vh / 1.5)",
     },
     extend: {
+      fontFamily: {
+        raleway: ["raleway", "sans-serif"],
+      },
+
       height: (theme) => ({
         "screen/2": "50vh",
         "screen/2/3": "calc(100vh / 1.5)",

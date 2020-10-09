@@ -14,7 +14,7 @@ function ContactPage() {
       <HeroSmall
         title="Contact Us"
         heading="We are always looking to meet likeminded and ambitious people. "
-        linkTo="/team#intro"
+        linkTo="/contact#contact-us"
       ></HeroSmall>
     </Layout>
   );

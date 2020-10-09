@@ -3,17 +3,20 @@ import Image from "./Image";
 
 function AdvisorGrid() {
   return (
-    <section id="advisors-intro" className="[advisory] p-24 bg-gray-200">
+    <section
+      id="advisors-intro"
+      className="[advisory] p-12 md:p-24 bg-gray-200"
+    >
       <div className="text-center  m-auto mb-4">
         <h2 className="block text-lg text-black text-opacity-50 uppercase">
           Advisory Board
         </h2>
-        <p className="inline-block text-4xl  font-bold mb-4">
+        <p className="inline-block text-xl md:text-4xl  font-bold mb-4">
           A support team of experts.
         </p>
       </div>
 
-      <div className="[advisor_grid] max-w-6xl grid grid-cols-3 gap-12 mb-12  m-auto text-center">
+      <div className="[advisor_grid] md:max-w-6xl md:grid grid-cols-3 gap-12 mb-12  m-auto text-center">
         <article className="[advisor_card]">
           <div className="[card_media]">
             <Image

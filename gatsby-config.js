@@ -26,6 +26,7 @@ module.exports = {
         defaultQuality: 50,
       },
     },
+
     {
       resolve: "gatsby-plugin-react-svg",
       options: {

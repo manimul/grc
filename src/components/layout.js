@@ -6,17 +6,17 @@ import Header from "./header";
 
 function Layout({ children }) {
   return (
-    <div className="flex flex-col min-h-screen font-sans text-gray-900  ">
+    <div className="flex flex-col min-h-screen font-raleway text-gray-900  ">
       <Header />
 
       <main className="flex-1 w-full  mx-auto  pt-24 -mt-24">{children}</main>
 
-      <section className="[contact] grid grid-cols-2 gap-4 ">
-        <div className="p-24">
+      <section id="contact-us" className="[contact] md:grid grid-cols-2 gap-4 ">
+        <div className="p-12 md:p-24">
           <h2 className="inline-block text-xl  mb-1 text-black text-opacity-50 uppercase">
             Contact Us
           </h2>
-          <p className="inline-block text-4xl font-bold mb-4 leading-tight">
+          <p className="inline-block text-xl md:text-4xl font-bold mb-4 leading-tight">
             Please get in touch if you have any questions or would like to work
             with us
           </p>
@@ -33,7 +33,7 @@ function Layout({ children }) {
             Learn more about our concept{" "}
           </a>
         </div>
-        <div className="p-24">
+        <div className="p-12 md:p-24">
           <form className="w-full max-w-lg">
             <div className="flex flex-wrap -mx-3 mb-6">
               <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">

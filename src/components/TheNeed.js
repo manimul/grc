@@ -5,13 +5,13 @@ import { Link } from "gatsby";
 function TheNeed(props) {
   return (
     <div>
-      <section id="the-need" className="[need] p-24 bg-gray-200">
+      <section id="the-need" className="[need] p-12 md:p-24 bg-gray-200">
         <div>
           <div className="text-center max-w-6xl m-auto mb-4">
             <h2 className="block text-lg text-black text-opacity-50 uppercase">
               The Need
             </h2>
-            <p className="inline-block text-4xl  font-bold mb-4">
+            <p className="inline-block text-xl md:text-4xl  font-bold mb-4">
               What people say about our concept.
             </p>
           </div>

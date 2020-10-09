@@ -52,9 +52,9 @@ const BackgroundSection = ({ className }) => (
           fluid={imageData}
           backgroundColor={`#040e18`}
         >
-          <div className="md:px-24 pb-24  m-auto bg-gradient-to-r from-grc-navy  min-h-screen ">
-            <div className="max-w-2xl pt-40">
-              <h1 className=" mb-4 text-5xl font-bold  leading-tight">
+          <div className="w-full p-12 md:px-24 md:pb-24   m-auto bg-gradient-to-r from-grc-navy  min-h-screen ">
+            <div className="max-w-2xl pt-32 md:pt-56 text-center md:text-left">
+              <h1 className=" mb-4 text-2xl md:text-5xl  font-bold leading-tight">
                 We are building better futures for young people in non-urban
                 Africa
               </h1>
@@ -91,16 +91,16 @@ function IndexPage() {
         title="Home"
       />
 
-      <BackgroundSection className="hero  min-h-screen  text-white "></BackgroundSection>
+      <BackgroundSection className="hero  min-h-screen  text-white  "></BackgroundSection>
       <section
         id="vision"
-        className="[vision] grid grid-cols-2 gap-4 min-h-screen/2/3"
+        className="[vision] md:grid grid-cols-2 gap-4 min-h-screen/2/3"
       >
-        <div className="p-24 max-w-2xl">
+        <div className="p-12 md:p-24 max-w-2xl text-center md:text-left">
           <h2 className="inline-block text-xl  mb-1 text-black text-opacity-50 uppercase">
             Our Vision
           </h2>
-          <p className="inline-block text-4xl font-bold mb-4 leading-tight">
+          <p className="inline-block text-xl md:text-4xl font-bold mb-4 leading-tight">
             Enhancing the quality of life for citizens in non-urban sub-Saharan
             Africa by building 200 Global River Centers
           </p>
@@ -132,13 +132,16 @@ function IndexPage() {
 
       <ConceptSection fullPage={false}></ConceptSection>
 
-      <section id="impact" className="[impact] py-24 text-white bg-grc-navy ">
-        <div className="[impact] max-w-6xl m-auto grid grid-cols-5 grid-flow-col  ">
+      <section
+        id="impact"
+        className="[impact] p-12 md:px-0 md:py-24 text-white bg-grc-navy "
+      >
+        <div className="[impact] max-w-6xl m-auto md:grid grid-cols-5 grid-flow-col  ">
           <div className="  col-span-3  max-w-2xl">
             <h2 className="inline-block text-lg    text-opacity-50 uppercase">
               Our Impact
             </h2>
-            <p className="inline-block text-4xl font-bold mb-4 md:pr-16">
+            <p className="inline-block text-xl md:text-4xl font-bold mb-4 md:pr-16">
               We directly contribute to 8 of the UNs Sustainable Development
               Goals{" "}
             </p>

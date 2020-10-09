@@ -9,7 +9,7 @@ import {
 
 function FAQ() {
   return (
-    <section className="py-24  px-4">
+    <section id="faq" className="py-24  px-4">
       <div className="text-center max-w-4xl m-auto mb-4">
         <h2 className="block text-xl  mb-1 text-black text-opacity-50 uppercase">
           FAQ

@@ -2,6 +2,7 @@ import { graphql, useStaticQuery, Link } from "gatsby";
 import React, { useState } from "react";
 import Headroom from "react-headroom";
 import Logo from "../images/grc-logo.svg";
+import Dropdown from "./Dropdown";
 
 function Header() {
   const [isExpanded, toggleExpansion] = useState(false);
@@ -16,8 +17,8 @@ function Header() {
   `);
 
   return (
-    <Headroom id="nav" className=" z-50  w-full">
-      <div className="flex flex-wrap items-center justify-between md:px-24 md:py-8 mx-auto p-4  bg-grc-navy ">
+    <Headroom id="nav" className=" z-50  w-full fixed">
+      <div className="flex flex-wrap items-center justify-between md:px-24 md:py-8 mx-auto p-4   ">
         <Link to="/">
           <div className="flex items-center ">
             <Logo
@@ -54,14 +55,25 @@ function Header() {
             {
               route: `/story`,
               title: `The Story`,
+              subroutes: [
+                { route: "/story#why", title: "Why?" },
+                { route: "/story#our-vision", title: "Our Vision" },
+                { route: "/story#the-need", title: "The Need" },
+                { route: "/story#faq", title: "FAQ" },
+              ],
             },
             {
               route: `/our-concept`,
               title: `Our Concept`,
+              subroutes: [{ route: "/strategy", title: "Our Strategy" }],
             },
             {
               route: `/team`,
               title: `Who are we`,
+              subroutes: [
+                { route: "/advisors", title: "Advisors" },
+                { route: "/partners", title: "Our Partners" },
+              ],
             },
             {
               route: `/news`,
@@ -73,14 +85,17 @@ function Header() {
               title: `Contact Us`,
             },
           ].map((link) => (
-            <Link
-              className="block mt-4 text-white opacity-75 pb-2 no-underline md:inline-block md:mt-0 md:ml-6"
-              activeClassName="font-bold opacity-100 border-b-2    "
+            <Dropdown
+              className="block mt-4 text-white font-light pb-2 no-underline md:inline-block md:mt-0 md:mx-8 relative"
+              activeClassName="font-bold    "
               key={link.title}
+              pageName={link.title}
               to={link.route}
+              master={link}
+              subs={link.subroutes}
             >
               {link.title}
-            </Link>
+            </Dropdown>
           ))}
         </nav>
       </div>

@@ -4,26 +4,26 @@ import PropTypes from "prop-types";
 
 function TeamGrid(props) {
   return (
-    <section id="team-intro" className="[team] p-24">
-      <div className="text-center  px-24 m-auto mb-4">
+    <section id="team-intro" className="[team] p-12 md:p-24">
+      <div className="text-center  md:px-24 m-auto mb-4">
         <h2 className="block text-lg text-black text-opacity-50 uppercase">
           Our Team
         </h2>
-        <p className="inline-block text-4xl  font-bold mb-4">
+        <p className="inline-block text-xl md:text-4xl  font-bold mb-4">
           Equal parts passion and expertise.
         </p>
       </div>
-      <div className="max-w-6xl grid grid-cols-2 gap-12  m-auto ">
-        <div>
+      <div className="md:max-w-6xl md:grid md:grid-cols-8 md:gap-12  m-auto ">
+        <div className="md:col-span-3">
           <Image
-            className="h-screen/2/3 w-full object-cover object-center"
+            className=" w-full object-cover object-center"
             filename="elizabeth.jpg"
           />
         </div>
 
-        <div className="mt-6 pr-32">
+        <div className="mt-6 md:pr-32 md:col-span-5">
           <p className="block  mb-1 text-black text-opacity-50 uppercase">
-            CEo and founder
+            Ceo and founder
           </p>
           <p className="block text-2xl font-bold mb-1 leading-tight">
             Elizabeth Boye
@@ -51,23 +51,29 @@ function TeamGrid(props) {
                 build the capacity of the business association organizing the
                 exporting 5000 RMG factories in Bangladesh to mention a few. She
                 advised all IFU partner companies in Sub-Saharan Africa on the
-                implementation of the IFU CSR policy. She advised Government of
-                Kenya, the National Economic and Social Council, on how to make
-                the Public Private Partnership (PPP) work for the implementation
-                of the National Development Plan (Vision2030). For the
-                Government of Bangladesh she advised on effective implementation
-                of the ADB SESIP PPP mandate within the National Education
-                Policy, including the establishment of an operational platform
-                for stimulation of public private innovation. Further, her work
-                included input to PPP policy drafting processes in Ghana and
-                Bangladesh and much more. She educated and provided advice to
-                more than 600 high level decision and policy makers in how to
-                make cross-sector partnership work for effective public and
-                private service delivery in Danida programme countries across
-                the globe, particularly in East and West Africa. Furthermore she
-                is external course coordinator and lecturer at Copenhagen
-                Business School, sole owner of Sociability and CEO of Global
-                River Center.
+                implementation of the IFU CSR policy.
+              </p>
+              <p className="mb-4">
+                {" "}
+                She advised Government of Kenya, the National Economic and
+                Social Council, on how to make the Public Private Partnership
+                (PPP) work for the implementation of the National Development
+                Plan (Vision2030). For the Government of Bangladesh she advised
+                on effective implementation of the ADB SESIP PPP mandate within
+                the National Education Policy, including the establishment of an
+                operational platform for stimulation of public private
+                innovation.{" "}
+              </p>
+              <p className="mb-4">
+                Further, her work included input to PPP policy drafting
+                processes in Ghana and Bangladesh and much more. She educated
+                and provided advice to more than 600 high level decision and
+                policy makers in how to make cross-sector partnership work for
+                effective public and private service delivery in Danida
+                programme countries across the globe, particularly in East and
+                West Africa. Furthermore she is external course coordinator and
+                lecturer at Copenhagen Business School, sole owner of
+                Sociability and CEO of Global River Center.
               </p>
             </>
           ) : (
@@ -90,7 +96,7 @@ function TeamGrid(props) {
           )}
         </div>
 
-        <div className="mt-6 pl-32 ">
+        <div className="mt-6 md:pl-32 md:col-span-5 ">
           <p className="block  mb-1 text-black text-opacity-50 uppercase">
             Chairman
           </p>
@@ -144,21 +150,21 @@ function TeamGrid(props) {
           )}
         </div>
 
-        <div>
+        <div className="md:col-span-3">
           <Image
-            className="h-screen/2/3 w-full object-cover object-center"
+            className=" w-full object-cover object-center"
             filename="michael.jpg"
           />
         </div>
 
-        <div>
+        <div className="md:col-span-3">
           <Image
-            className="h-screen/2/3 w-full object-cover object-center"
+            className=" w-full object-cover object-center"
             filename="sandra.jpg"
           />
         </div>
 
-        <div className="mt-6 pr-32">
+        <div className="mt-6 md:pr-32 md:col-span-5">
           <p className="block  mb-1 text-black text-opacity-50 uppercase">
             Concept Developer
           </p>
