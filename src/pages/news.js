@@ -31,12 +31,12 @@ const BackgroundSection = ({ className }) => (
           fluid={imageData}
           backgroundColor={`#040e18`}
         >
-          <div className="md:p-24   m-auto bg-gradient-to-r from-grc-navy  min-h-screen w-full">
-            <div className="max-w-4xl m-auto  py-24">
+          <div className="p-12 md:p-24   m-auto bg-gradient-to-r from-grc-navy  min-h-screen w-full">
+            <div className="max-w-4xl m-auto  py-12 md:py-24">
               <h1 className="block text-xl  mb-1 text-white text-opacity-50 uppercase">
                 Latest News
               </h1>
-              <p className="block text-5xl   leading-tight font-bold mb-4">
+              <p className="block text-2xl md:text-5xl   leading-tight font-bold mb-4">
                 This is the headlines of the news article and it is this long
               </p>
               <p>Aug 05 2020</p>

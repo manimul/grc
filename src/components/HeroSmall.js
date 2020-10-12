@@ -9,15 +9,15 @@ function HeroSmall(props) {
   return (
     <section
       className={
-        "[story_hero] p-24  text-white text-center " +
+        "[story_hero] p-12 md:p-24  text-white text-center " +
         (props.bgGreen ? " cta_green_shapes" : " cta_blue_shapes")
       }
     >
-      <div className="max-w-6xl m-auto py-24">
+      <div className="md:max-w-6xl m-auto py-12 md:py-24">
         <h2 className="block text-xl  mb-1 text-white text-opacity-50 uppercase">
           {props.title}
         </h2>
-        <p className="block text-5xl   leading-tight font-bold mb-4">
+        <p className="block text-2xl md:text-5xl   leading-tight font-bold mb-4">
           {props.heading}
         </p>
 

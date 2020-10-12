@@ -14,7 +14,7 @@ function FAQ() {
         <h2 className="block text-xl  mb-1 text-black text-opacity-50 uppercase">
           FAQ
         </h2>
-        <p className="inline-block text-4xl  font-bold mb-4">
+        <p className="inline-block text-xl md:text-4xl  font-bold mb-4">
           We get asked a lot of questions about Global River Center. Here are
           some of the most common questions to help you understand our story.
         </p>
@@ -22,7 +22,7 @@ function FAQ() {
       <div className="max-w-3xl m-auto mb-4">
         <Accordion allowZeroExpanded className="">
           <AccordionItem className="border-gray-200">
-            <AccordionItemHeading className=" font-bold text-xl">
+            <AccordionItemHeading className=" font-bold text-lg md:text-xl">
               <AccordionItemButton>Is GRC an NGO?</AccordionItemButton>
             </AccordionItemHeading>
             <AccordionItemPanel>
@@ -37,7 +37,7 @@ function FAQ() {
           </AccordionItem>
 
           <AccordionItem className="border-gray-200">
-            <AccordionItemHeading className=" font-bold text-xl">
+            <AccordionItemHeading className=" font-bold text-lg md:text-xl">
               <AccordionItemButton>
                 Is this a community center, a mall, a college or what?
               </AccordionItemButton>
@@ -66,7 +66,7 @@ function FAQ() {
           </AccordionItem>
 
           <AccordionItem className="border-gray-200">
-            <AccordionItemHeading className=" font-bold text-xl">
+            <AccordionItemHeading className=" font-bold text-lg md:text-xl">
               <AccordionItemButton>
                 Who are the main beneficiaries of your concept?
               </AccordionItemButton>
@@ -84,7 +84,7 @@ function FAQ() {
           </AccordionItem>
 
           <AccordionItem className="border-gray-200">
-            <AccordionItemHeading className=" font-bold text-xl">
+            <AccordionItemHeading className=" font-bold text-lg md:text-xl">
               <AccordionItemButton>
                 What&apos;s unique about this concept?
               </AccordionItemButton>
@@ -104,7 +104,7 @@ function FAQ() {
           </AccordionItem>
 
           <AccordionItem className="border-gray-200">
-            <AccordionItemHeading className=" font-bold text-xl">
+            <AccordionItemHeading className=" font-bold text-lg md:text-xl">
               <AccordionItemButton>
                 What will success look like?
               </AccordionItemButton>
@@ -125,7 +125,7 @@ function FAQ() {
           </AccordionItem>
 
           <AccordionItem className="border-gray-200">
-            <AccordionItemHeading className=" font-bold text-xl">
+            <AccordionItemHeading className=" font-bold text-lg md:text-xl">
               <AccordionItemButton>
                 I want to help or contribute, how can I?
               </AccordionItemButton>
@@ -146,7 +146,7 @@ function FAQ() {
           </AccordionItem>
 
           <AccordionItem className="border-gray-200">
-            <AccordionItemHeading className=" font-bold text-xl">
+            <AccordionItemHeading className=" font-bold text-lg md:text-xl">
               <AccordionItemButton>
                 Are you looking for volunteers or interns?
               </AccordionItemButton>
@@ -160,7 +160,7 @@ function FAQ() {
           </AccordionItem>
 
           <AccordionItem className="border-gray-200">
-            <AccordionItemHeading className=" font-bold text-xl">
+            <AccordionItemHeading className=" font-bold text-lg md:text-xl">
               <AccordionItemButton>
                 Where and when do you expect to launch?
               </AccordionItemButton>
@@ -176,7 +176,7 @@ function FAQ() {
           </AccordionItem>
 
           <AccordionItem className="border-gray-200">
-            <AccordionItemHeading className=" font-bold text-xl">
+            <AccordionItemHeading className=" font-bold text-lg md:text-xl">
               <AccordionItemButton>
                 Do you contribute towards the SDG2030 goals?
               </AccordionItemButton>

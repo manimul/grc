@@ -79,7 +79,7 @@ const ConceptSection = (props) => {
         <div>
           <section
             id="concept-intro"
-            className="[infrastructure] grid grid-cols-2   min-h-screen/2/3 "
+            className="[infrastructure] md:grid grid-cols-2   md:min-h-screen/2/3 "
           >
             <BackgroundImage
               Tag={`section`}
@@ -88,13 +88,13 @@ const ConceptSection = (props) => {
               fluid={infrastructureImg}
             >
               <div className="bg-grc-navy  inline-block p-6   text-white md:w-2/5">
-                <h2 className="font-bold text-3xl ">
+                <h2 className="font-bold md:text-3xl ">
                   River<br></br> Center<br></br> Infrastructure
                 </h2>
               </div>
             </BackgroundImage>
 
-            <div className="p-24 max-w-2xl">
+            <div className="p-12 md:p-24 md:max-w-2xl">
               <h3 className="inline-block text-xl  mb-1 text-black text-opacity-50 uppercase">
                 The Infrastructure
               </h3>
@@ -112,12 +112,12 @@ const ConceptSection = (props) => {
             </div>
           </section>
 
-          <section className="[trading] grid grid-cols-2 min-h-screen/2/3">
-            <div className="p-24 max-w-2xl">
+          <section className="[trading] md:grid grid-cols-2 min-h-screen/2/3">
+            <div className="p-12 md:p-24 max-w-2xl">
               <h3 className="inline-block text-xl  mb-1 text-black text-opacity-50 uppercase">
                 Empowering trade and commerce
               </h3>
-              <p className="inline-block text-4xl font-bold mb-4 leading-tight">
+              <p className="inline-block text-xl md:text-4xl font-bold mb-4 leading-tight">
                 River Trading Hub is an environment designed to support local
                 retailers and traders.
               </p>
@@ -133,14 +133,14 @@ const ConceptSection = (props) => {
               fluid={tradingImg}
             >
               <div className="bg-grc-blue inline-block p-6   text-white md:w-2/5">
-                <h2 className="font-bold text-3xl pr-24">
+                <h2 className="font-bold text-lg md:text-3xl md:pr-24">
                   River<br></br> Trading<br></br> Hub
                 </h2>
               </div>
             </BackgroundImage>
           </section>
 
-          <section className="[entertainment] grid grid-cols-2 min-h-screen/2/3 ">
+          <section className="[entertainment] md:grid grid-cols-2 min-h-screen/2/3 ">
             <BackgroundImage
               Tag={`section`}
               id={`test`}
@@ -148,17 +148,17 @@ const ConceptSection = (props) => {
               fluid={entertainmentImg}
             >
               <div className="bg-grc-red  inline-block p-6   text-white md:w-2/5">
-                <h2 className="font-bold text-3xl pr-24">
+                <h2 className="font-bold text-lg md:text-3xl md:pr-24">
                   River<br></br> Entertainment<br></br> Hub
                 </h2>
               </div>
             </BackgroundImage>
 
-            <div className="p-24 max-w-2xl">
+            <div className="p-12 md:p-24 max-w-2xl">
               <h3 className="inline-block text-xl  mb-1 text-black text-opacity-50 uppercase">
                 Enabling leisure and fun
               </h3>
-              <p className="inline-block text-4xl font-bold mb-4 leading-tight">
+              <p className="inline-block text-xl md:text-4xl font-bold mb-4 leading-tight">
                 River Entertainment Hub is a space tailored for sports, arts and
                 cultural activities.
               </p>
@@ -170,12 +170,12 @@ const ConceptSection = (props) => {
             </div>
           </section>
 
-          <section className="[community] grid grid-cols-2 min-h-screen/2/3">
-            <div className="p-24 max-w-2xl">
+          <section className="[community] md:grid grid-cols-2 md:min-h-screen/2/3">
+            <div className="p-12 md:p-24 max-w-2xl">
               <h3 className="inline-block text-xl  mb-1 text-black text-opacity-50 uppercase">
                 Supporting the local community
               </h3>
-              <p className="inline-block text-4xl font-bold mb-4 leading-tight">
+              <p className="inline-block text-xl md:text-4xl font-bold mb-4 leading-tight">
                 River Community Hub provides an enviroment for local community
                 gatherings.
               </p>
@@ -193,14 +193,14 @@ const ConceptSection = (props) => {
               fluid={communityImg}
             >
               <div className="bg-grc-green  inline-block p-6   text-white md:w-2/5">
-                <h2 className="font-bold text-3xl pr-24">
+                <h2 className="font-bold text-lg md:text-3xl md:pr-24">
                   River<br></br> Community<br></br> Hub
                 </h2>
               </div>
             </BackgroundImage>
           </section>
 
-          <section className="[education] grid grid-cols-2 min-h-screen/2/3 ">
+          <section className="[education] md:grid grid-cols-2 min-h-screen/2/3 ">
             <BackgroundImage
               Tag={`section`}
               id={`test`}
@@ -208,16 +208,16 @@ const ConceptSection = (props) => {
               fluid={educationImg}
             >
               <div className="bg-grc-yellow  inline-block p-6   text-white md:w-2/5">
-                <h2 className="font-bold text-3xl pr-24">
+                <h2 className="font-bold text-lg md:text-3xl md:pr-24">
                   River<br></br> Education<br></br> Hub
                 </h2>
               </div>
             </BackgroundImage>
-            <div className="p-24 max-w-2xl">
+            <div className="p-12 md:p-24 max-w-2xl">
               <h3 className="inline-block text-xl  mb-1 text-black text-opacity-50 uppercase">
                 Strenghtening skill sets
               </h3>
-              <p className="inline-block text-4xl font-bold mb-4 leading-tight">
+              <p className="inline-block text-xl md:text-4xl font-bold mb-4 leading-tight">
                 River Education Hub is the name given to education and skills
                 learning facilities and programs that take place in the center.
               </p>
@@ -236,12 +236,12 @@ const ConceptSection = (props) => {
             </div>
           </section>
 
-          <section className="[vision] grid grid-cols-2 min-h-screen/2/3">
-            <div className="p-24 max-w-2xl">
+          <section className="[vision] md:grid grid-cols-2 min-h-screen/2/3">
+            <div className="p-12 md:p-24 max-w-2xl">
               <h3 className="inline-block text-xl  mb-1 text-black text-opacity-50 uppercase">
                 River Center Health
               </h3>
-              <p className="inline-block text-4xl font-bold mb-4 leading-tight">
+              <p className="inline-block text-xl md:text-4xl font-bold mb-4 leading-tight">
                 The promotion of health is a central element in the River
                 Centers and is supported within each hub.
               </p>
@@ -263,7 +263,7 @@ const ConceptSection = (props) => {
               fluid={healthImg}
             >
               <div className="bg-grc-light-blue inline-block p-6   text-white md:w-2/5">
-                <h2 className="font-bold text-3xl pr-24">
+                <h2 className="font-bold text-lg md:text-3xl md:pr-24">
                   River<br></br> Center<br></br> Health
                 </h2>
               </div>
@@ -272,7 +272,7 @@ const ConceptSection = (props) => {
         </div>
       ) : (
         <div>
-          <section className="[concept] py-24  px-4 h">
+          <section className="[concept] py-12 md:py-24  px-4 h">
             <div>
               <div className="text-center max-w-4xl m-auto mb-4">
                 <h2 className="block text-xl  mb-1 text-black text-opacity-50 uppercase">

@@ -110,35 +110,35 @@ function Layout({ children }) {
       </section>
 
       <footer className="bg-grc-navy ">
-        <div className="flex justify-between max-w-6xl  mx-auto text-white text-sm md:py-24">
-          <div className="w-1/4 pr-12 ">
-            <Logo className="w-4/5 h-auto"></Logo>
-            <p className="py-4 pr-4">
+        <div className="p-12  text-center md:text-left md:p-0 flex flex-wrap justify-between max-w-6xl  mx-auto text-white text-sm md:py-24">
+          <div className=" w-full md:w-1/4 md:pr-12 ">
+            <Logo className="w-full md:w-4/5 h-auto"></Logo>
+            <p className="py-4 md:pr-4">
               Our River Center concept combines in-demand services in a
               sustainable commercial business model.{" "}
             </p>
             <div className="[social_icons] inline-flex ">
               <img
-                className="w-1/4 pr-2 "
+                className="md:w-1/4 md:pr-2 "
                 src="https://via.placeholder.com/32x32"
               />
               <img
-                className="w-1/4 pr-2"
+                className="md:w-1/4 md:pr-2"
                 src="https://via.placeholder.com/32x32"
               />
               <img
-                className="w-1/4 pr-2"
+                className="md:w-1/4 md:pr-2"
                 src="https://via.placeholder.com/32x32"
               />
               <img
-                className="w-1/4 pr-2"
+                className="md:w-1/4 md:pr-2"
                 src="https://via.placeholder.com/32x32"
               />
             </div>
             <p className="py-4 font-bold">#BuildingBetterFutures</p>
           </div>
 
-          <div className="w-1/4">
+          <div className="w-1/2 md:w-1/4">
             <nav className="pb-8">
               <h1 className="font-bold pb-2">The Story</h1>
               <ul>
@@ -176,7 +176,7 @@ function Layout({ children }) {
             </nav>
           </div>
 
-          <div className="w-1/4">
+          <div className="w-1/2 md:w-1/4">
             <nav className="pb-8">
               <h1 className="font-bold pb-2">The Story</h1>
               <ul>
@@ -214,8 +214,8 @@ function Layout({ children }) {
             </nav>
           </div>
 
-          <div className="w-1/4">
-            <nav className="pb-8">
+          <div className="w-full flex flex-row md:flex-col md:w-1/4">
+            <nav className="w-1/2 pb-8">
               <h1 className="font-bold pb-2">The Story</h1>
               <ul>
                 <li className="pb-1 opacity-75 hover:opacity-100 cursor-pointer">
@@ -233,7 +233,7 @@ function Layout({ children }) {
               </ul>
             </nav>
 
-            <nav className="pb-8">
+            <nav className=" w-1/2 pb-8">
               <h1 className="font-bold pb-2">The Story</h1>
               <ul>
                 <li className="pb-1 opacity-75 hover:opacity-100 cursor-pointer">

@@ -22,7 +22,7 @@ function ConceptPage() {
 
       <section className="[cta_taskforce] p-24 cta_blue_wiggles text-white text-center">
         <div className="max-w-4xl m-auto">
-          <p className="inline-block text-4xl font-bold mb-4">
+          <p className="inline-block text-xl md:text-4xl font-bold mb-4">
             We combine our concept with a strong management team and leading
             industry partners
           </p>
