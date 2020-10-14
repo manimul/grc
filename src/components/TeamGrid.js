@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "./Image";
 import PropTypes from "prop-types";
+import { Link } from "gatsby";
 
 function TeamGrid(props) {
   return (
@@ -21,7 +22,7 @@ function TeamGrid(props) {
           />
         </div>
 
-        <div className="mt-6 md:pr-32 md:col-span-5">
+        <div id="elizabeth" className="mt-6 md:pr-32 md:col-span-5">
           <p className="block  mb-1 text-black text-opacity-50 uppercase">
             Ceo and founder
           </p>
@@ -37,66 +38,60 @@ function TeamGrid(props) {
           {props.fullPage ? (
             <>
               <p className="mb-4">
-                Elizabeth is the renowned Responsible Business and Cross-Sector
-                Partnerships for Growth professional. She has more than 26 years
-                of experience working in various Southern, Western and Eastern
-                African as well as South Eastern Asian countries for an
-                impressive range of governments, international corporations and
-                development institutions. Always with a regional development
-                focus, she programmed the COOP Savannah brand and programmed the
-                Nordzucker sourcing. She was the program director for the CSR
-                Juice Platform, mobilizing all stakeholders in the juice sector
-                for pre-competitive cooperation on responsible business
-                development. She prepared the FanMilk Nigeria for sale and she
-                build the capacity of the business association organizing the
-                exporting 5000 RMG factories in Bangladesh to mention a few. She
-                advised all IFU partner companies in Sub-Saharan Africa on the
-                implementation of the IFU CSR policy.
+                Elizabeth Boye is the renowned Responsible-Business and
+                cross-sector partnerships for growth professional. Her work
+                focused on capacity development, process-facilitation and
+                training, including organisational & institutional development
+                and leading CSR-motivated change processes for inclusive
+                development solutions. Herein facilitation of radical change at
+                all levels: individual, institutional, legislative framework and
+                political.
               </p>
               <p className="mb-4">
-                {" "}
-                She advised Government of Kenya, the National Economic and
-                Social Council, on how to make the Public Private Partnership
-                (PPP) work for the implementation of the National Development
-                Plan (Vision2030). For the Government of Bangladesh she advised
-                on effective implementation of the ADB SESIP PPP mandate within
-                the National Education Policy, including the establishment of an
-                operational platform for stimulation of public private
-                innovation.{" "}
+                She has over 26years of experience working in African and
+                South-Eastern Asian countries for governments, international
+                corporations and development institutions. She educated more
+                than 600 high-level decision and policymakers on how to make
+                cross-sector partnership work for effective public and private
+                service delivery in Danida programme countries, particularly in
+                East and West Africa.
               </p>
               <p className="mb-4">
-                Further, her work included input to PPP policy drafting
-                processes in Ghana and Bangladesh and much more. She educated
-                and provided advice to more than 600 high level decision and
-                policy makers in how to make cross-sector partnership work for
-                effective public and private service delivery in Danida
-                programme countries across the globe, particularly in East and
-                West Africa. Furthermore she is external course coordinator and
-                lecturer at Copenhagen Business School, sole owner of
-                Sociability and CEO of Global River Center.
+                She prepared the FanMilk Nigeria for sale and she build the
+                capacity of the business association organizing the exporting
+                5000 RMG factories in Bangladesh to mention a few. She advised
+                all IFU partner companies in Sub-Saharan Africa on the
+                implementation of the IFU CSR policy. She advised Government of
+                Kenya, the National Economic and Social Council, on how to make
+                the Public Private Partnership (PPP) work for the implementation
+                of the National Development Plan (Vision2030). Furthermore she
+                is external course coordinator and lecturer at Copenhagen
+                Business School, sole owner of Sociability and CEO of Global
+                River Center.
               </p>
             </>
           ) : (
             <>
               <p className="mb-4">
-                Elizabeth is the renowned Responsible Business and Cross-Sector
-                Partnerships for Growth professional. She has more than 26 years
-                of experience working in various Southern, Western and Eastern
-                African as well as South Eastern Asian countries for an
-                impressive range of governments, international corporations and
-                development institutions...
+                Elizabeth Boye is the renowned Responsible-Business and
+                cross-sector partnerships for growth professional. Her work
+                focused on capacity development, process-facilitation and
+                training, including organisational & institutional development
+                and leading CSR-motivated change processes for inclusive
+                development solutions...
               </p>
-              <a
-                href="#"
+
+              <Link
+                to="/team#elizabeth"
                 className=" underline font-bold block m-auto text-green-700"
               >
                 Read more
-              </a>
+              </Link>
             </>
           )}
         </div>
 
-        <div className="mt-6 md:pl-32 md:col-span-5 ">
+        <div id="michael" className="mt-6 md:pl-32 md:col-span-5 ">
           <p className="block  mb-1 text-black text-opacity-50 uppercase">
             Chairman
           </p>
@@ -115,19 +110,25 @@ function TeamGrid(props) {
               <p className="mb-4">
                 Michael holds more than 30 years international business
                 experience, with focus on Information Technology, Telecom and
-                eCommerce. He has been hands-on involved in more than 325
-                international investments in Europe, US, Canada, Russia, UAE,
-                Taiwan, China and West Africa. 2 of them becoming Unicorns.
-                Michael has experience from 9 IPOs (Stockholm, Copenhagen and
-                London) and more than 35 trade sales. He has served as a
-                non-exec board member in more than 100 international private,
-                public and government companies as well as the board of Young
-                Presidents’ Organization (YPO). Michael is currently engaged as
-                CEO of Bambwa Group, a Nordic-African investment company. He is
-                using his expertise as a global business leader and his
-                experience from over 10 years working on the African continent
-                to help establish a new wave of cross-continent investment,
-                development and economic bridge-building.
+                eCommerce.
+              </p>
+              <p className="mb-4">
+                He has been hands-on involved in more than 325 international
+                investments in Europe, US, Canada, Russia, UAE, Taiwan, China
+                and West Africa. 2 of them becoming Unicorns. Michael has
+                experience from 9 IPOs (Stockholm, Copenhagen and London) and
+                more than 35 trade sales.
+              </p>
+              <p className="mb-4">
+                He has served as a non-exec board member in more than 100
+                international private, public and government companies as well
+                as the board of Young Presidents’ Organization (YPO). Michael is
+                currently engaged as CEO of Bambwa Group, a Nordic-African
+                investment company. He is using his expertise as a global
+                business leader and his experience from over 10 years working on
+                the African continent to help establish a new wave of
+                cross-continent investment, development and economic
+                bridge-building.
               </p>
             </>
           ) : (
@@ -140,12 +141,12 @@ function TeamGrid(props) {
                 Taiwan, China and West Africa. 2 of them becoming Unicorns...
               </p>
 
-              <a
-                href="#"
+              <Link
+                to="/team#michael"
                 className=" underline font-bold block m-auto text-green-700"
               >
                 Read more
-              </a>
+              </Link>
             </>
           )}
         </div>
@@ -164,7 +165,7 @@ function TeamGrid(props) {
           />
         </div>
 
-        <div className="mt-6 md:pr-32 md:col-span-5">
+        <div id="sandra" className="mt-6 md:pr-32 md:col-span-5">
           <p className="block  mb-1 text-black text-opacity-50 uppercase">
             Concept Developer
           </p>
@@ -183,15 +184,19 @@ function TeamGrid(props) {
                 Sandra Petersen is a researcher at Global River Center. She is
                 researching funding and strategic partnership opportunities,
                 doing research for concept development as well as SoMe content.
+              </p>
+              <p className="mb-4">
                 She has a broad background with a B.Sc. in Information Science
                 and Cultural mediation, where she did a field study on Zambia’s
-                possibilities to become an information society. Moreover, she
-                has an MA in Peace, Development, Security and International
-                Conflict Transformation gaining experience in multi-stakeholder
-                management and engagement, and she has experience with project
-                designing through volunteering with the Turkish organisation
-                System and Generation, creating a project for cultural
-                understanding between Turkey and The EU.{" "}
+                possibilities to become an information society.
+              </p>
+              <p className="mb-4">
+                Moreover, she has an MA in Peace, Development, Security and
+                International Conflict Transformation gaining experience in
+                multi-stakeholder management and engagement, and she has
+                experience with project designing through volunteering with the
+                Turkish organisation System and Generation, creating a project
+                for cultural understanding between Turkey and The EU.{" "}
               </p>
             </>
           ) : (
@@ -205,12 +210,12 @@ function TeamGrid(props) {
                 possibilities to become an information society...
               </p>
 
-              <a
-                href="#"
+              <Link
+                to="/team#sandra"
                 className=" underline font-bold block m-auto text-green-700"
               >
                 Read more
-              </a>
+              </Link>
             </>
           )}
         </div>

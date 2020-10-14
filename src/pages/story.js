@@ -4,11 +4,11 @@ import FAQ from "../components/Faq";
 import SEO from "../components/seo";
 import CtaNews from "../components/CtaNewsletter";
 import { Icon } from "@iconify/react";
-import { Link } from "gatsby";
 import arrowDownCircle from "@iconify/icons-feather/arrow-down-circle";
 import { AnchorLink } from "gatsby-plugin-anchor-links";
 import TheNeed from "../components/TheNeed";
 import Image from "../components/Image";
+import Button from "../components/Button";
 
 function StoryPage() {
   return (
@@ -128,12 +128,11 @@ function StoryPage() {
             Our concept is an innovative and creative combination of needed
             elements in a cutting-edge sustainable building
           </p>
-          <Link
-            className="inline-block mt-4 border-white border-2 px-4 py-2"
-            to="/our-concept"
-          >
+
+          <Button link={true} to="/our-concept">
+            {" "}
             Learn More About Our Concept
-          </Link>
+          </Button>
         </div>
       </section>
       <TheNeed></TheNeed>

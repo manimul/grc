@@ -18,7 +18,17 @@ function TheNeed(props) {
 
           <div className="md:grid md:gap-4 md:grid-cols-3 mb-12 max-w-6xl m-auto ">
             <div className="bg-white block w-full p-6 text-center h_fit_content rounded-md ">
-              <span className="text-4xl italic leading-snug">&quot;</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                version="1.1"
+                x="0px"
+                y="0px"
+                className="w-6 m-auto"
+                viewBox="0 0 100 125"
+              >
+                <path d="M44.5,24.7c-7,3-12.4,6.3-16.2,9.9c-3.9,3.6-5.8,8.2-5.8,13.8c0,5.1,1.7,9.1,5.2,12c3.5,2.9,7.6,4.8,12.3,5.8  c0.9,0.2,1.8,0.8,2.7,1.7c0.8,0.9,1.3,2.3,1.3,3.9c0,3.8-1.4,6.5-4.2,8.2c-2.8,1.7-5.5,2.5-7.9,2.5h-0.3c-3,0-6.1-0.7-9.2-2  c-3.1-1.3-5.9-3.1-8.5-5.5c-2.5-2.4-4.7-5.3-6.3-8.7C5.8,62.9,5,58.9,5,54.4c0-5.1,1.1-9.6,3.2-13.7c2.2-4,5-7.6,8.5-10.7  c3.5-3.1,7.4-5.7,11.7-7.8c4.3-2.1,8.7-3.7,13.3-4.8L44.5,24.7z" />
+                <path d="M95,24.7c-7,3-12.4,6.3-16.2,9.9c-3.9,3.6-5.8,8.2-5.8,13.8c0,5.1,1.7,9.1,5.2,12c3.5,2.9,7.6,4.8,12.3,5.8  c0.9,0.2,1.8,0.8,2.7,1.7c0.8,0.9,1.3,2.3,1.3,3.9c0,3.8-1.4,6.5-4.2,8.2c-2.8,1.7-5.5,2.5-7.9,2.5H82c-3,0-6.1-0.7-9.2-2  c-3.1-1.3-5.9-3.1-8.5-5.5c-2.5-2.4-4.7-5.3-6.3-8.7c-1.7-3.5-2.5-7.5-2.5-12c0-5.1,1.1-9.6,3.2-13.7c2.2-4,5-7.6,8.5-10.7  c3.5-3.1,7.4-5.7,11.7-7.8c4.3-2.1,8.7-3.7,13.3-4.8L95,24.7z" />
+              </svg>{" "}
               <p className=" italic text-gray-700">
                 The River Center is exactly what we need. We want to be the
                 first area having a River Center. The area needs this – we are
@@ -35,7 +45,17 @@ function TheNeed(props) {
             </div>
 
             <div className="bg-white block w-full p-6 text-center h_fit_content rounded-md ">
-              <span className="text-4xl italic leading-snug">&quot;</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                version="1.1"
+                x="0px"
+                y="0px"
+                className="w-6 m-auto"
+                viewBox="0 0 100 125"
+              >
+                <path d="M44.5,24.7c-7,3-12.4,6.3-16.2,9.9c-3.9,3.6-5.8,8.2-5.8,13.8c0,5.1,1.7,9.1,5.2,12c3.5,2.9,7.6,4.8,12.3,5.8  c0.9,0.2,1.8,0.8,2.7,1.7c0.8,0.9,1.3,2.3,1.3,3.9c0,3.8-1.4,6.5-4.2,8.2c-2.8,1.7-5.5,2.5-7.9,2.5h-0.3c-3,0-6.1-0.7-9.2-2  c-3.1-1.3-5.9-3.1-8.5-5.5c-2.5-2.4-4.7-5.3-6.3-8.7C5.8,62.9,5,58.9,5,54.4c0-5.1,1.1-9.6,3.2-13.7c2.2-4,5-7.6,8.5-10.7  c3.5-3.1,7.4-5.7,11.7-7.8c4.3-2.1,8.7-3.7,13.3-4.8L44.5,24.7z" />
+                <path d="M95,24.7c-7,3-12.4,6.3-16.2,9.9c-3.9,3.6-5.8,8.2-5.8,13.8c0,5.1,1.7,9.1,5.2,12c3.5,2.9,7.6,4.8,12.3,5.8  c0.9,0.2,1.8,0.8,2.7,1.7c0.8,0.9,1.3,2.3,1.3,3.9c0,3.8-1.4,6.5-4.2,8.2c-2.8,1.7-5.5,2.5-7.9,2.5H82c-3,0-6.1-0.7-9.2-2  c-3.1-1.3-5.9-3.1-8.5-5.5c-2.5-2.4-4.7-5.3-6.3-8.7c-1.7-3.5-2.5-7.5-2.5-12c0-5.1,1.1-9.6,3.2-13.7c2.2-4,5-7.6,8.5-10.7  c3.5-3.1,7.4-5.7,11.7-7.8c4.3-2.1,8.7-3.7,13.3-4.8L95,24.7z" />
+              </svg>
               <p className=" italic text-gray-700">
                 This is good. We need this in Kenya and we need it more than
                 ever, as social structures are breaking up and investments tend
@@ -52,7 +72,17 @@ function TheNeed(props) {
             </div>
 
             <div className="bg-white block w-full p-6 text-center h_fit_content rounded-md ">
-              <span className="text-4xl italic leading-snug">&quot;</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                version="1.1"
+                x="0px"
+                y="0px"
+                className="w-6 m-auto"
+                viewBox="0 0 100 125"
+              >
+                <path d="M44.5,24.7c-7,3-12.4,6.3-16.2,9.9c-3.9,3.6-5.8,8.2-5.8,13.8c0,5.1,1.7,9.1,5.2,12c3.5,2.9,7.6,4.8,12.3,5.8  c0.9,0.2,1.8,0.8,2.7,1.7c0.8,0.9,1.3,2.3,1.3,3.9c0,3.8-1.4,6.5-4.2,8.2c-2.8,1.7-5.5,2.5-7.9,2.5h-0.3c-3,0-6.1-0.7-9.2-2  c-3.1-1.3-5.9-3.1-8.5-5.5c-2.5-2.4-4.7-5.3-6.3-8.7C5.8,62.9,5,58.9,5,54.4c0-5.1,1.1-9.6,3.2-13.7c2.2-4,5-7.6,8.5-10.7  c3.5-3.1,7.4-5.7,11.7-7.8c4.3-2.1,8.7-3.7,13.3-4.8L44.5,24.7z" />
+                <path d="M95,24.7c-7,3-12.4,6.3-16.2,9.9c-3.9,3.6-5.8,8.2-5.8,13.8c0,5.1,1.7,9.1,5.2,12c3.5,2.9,7.6,4.8,12.3,5.8  c0.9,0.2,1.8,0.8,2.7,1.7c0.8,0.9,1.3,2.3,1.3,3.9c0,3.8-1.4,6.5-4.2,8.2c-2.8,1.7-5.5,2.5-7.9,2.5H82c-3,0-6.1-0.7-9.2-2  c-3.1-1.3-5.9-3.1-8.5-5.5c-2.5-2.4-4.7-5.3-6.3-8.7c-1.7-3.5-2.5-7.5-2.5-12c0-5.1,1.1-9.6,3.2-13.7c2.2-4,5-7.6,8.5-10.7  c3.5-3.1,7.4-5.7,11.7-7.8c4.3-2.1,8.7-3.7,13.3-4.8L95,24.7z" />
+              </svg>
               <p className=" italic text-gray-700">
                 I want to support this, this is needed. Even beyond the city
                 border jurisdiction of Accra – I will be able to facilitate the
@@ -70,7 +100,17 @@ function TheNeed(props) {
             {props.extended && (
               <>
                 <div className="bg-white block w-full p-6 text-center h_fit_content rounded-md ">
-                  <span className="text-4xl italic leading-snug">&quot;</span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    version="1.1"
+                    x="0px"
+                    y="0px"
+                    className="w-6 m-auto"
+                    viewBox="0 0 100 125"
+                  >
+                    <path d="M44.5,24.7c-7,3-12.4,6.3-16.2,9.9c-3.9,3.6-5.8,8.2-5.8,13.8c0,5.1,1.7,9.1,5.2,12c3.5,2.9,7.6,4.8,12.3,5.8  c0.9,0.2,1.8,0.8,2.7,1.7c0.8,0.9,1.3,2.3,1.3,3.9c0,3.8-1.4,6.5-4.2,8.2c-2.8,1.7-5.5,2.5-7.9,2.5h-0.3c-3,0-6.1-0.7-9.2-2  c-3.1-1.3-5.9-3.1-8.5-5.5c-2.5-2.4-4.7-5.3-6.3-8.7C5.8,62.9,5,58.9,5,54.4c0-5.1,1.1-9.6,3.2-13.7c2.2-4,5-7.6,8.5-10.7  c3.5-3.1,7.4-5.7,11.7-7.8c4.3-2.1,8.7-3.7,13.3-4.8L44.5,24.7z" />
+                    <path d="M95,24.7c-7,3-12.4,6.3-16.2,9.9c-3.9,3.6-5.8,8.2-5.8,13.8c0,5.1,1.7,9.1,5.2,12c3.5,2.9,7.6,4.8,12.3,5.8  c0.9,0.2,1.8,0.8,2.7,1.7c0.8,0.9,1.3,2.3,1.3,3.9c0,3.8-1.4,6.5-4.2,8.2c-2.8,1.7-5.5,2.5-7.9,2.5H82c-3,0-6.1-0.7-9.2-2  c-3.1-1.3-5.9-3.1-8.5-5.5c-2.5-2.4-4.7-5.3-6.3-8.7c-1.7-3.5-2.5-7.5-2.5-12c0-5.1,1.1-9.6,3.2-13.7c2.2-4,5-7.6,8.5-10.7  c3.5-3.1,7.4-5.7,11.7-7.8c4.3-2.1,8.7-3.7,13.3-4.8L95,24.7z" />
+                  </svg>
                   <p className=" italic text-gray-700">
                     The River Center concept is reassuring and timely. I see it
                     as a unique and viable way of transforming the unemployed
@@ -91,9 +131,17 @@ function TheNeed(props) {
                 </div>
 
                 <div className="bg-white block w-full p-6 text-center h_fit_content rounded-md ">
-                  <span className="text-4xl italic leading-snug justify-between">
-                    &quot;
-                  </span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    version="1.1"
+                    x="0px"
+                    y="0px"
+                    className="w-6 m-auto"
+                    viewBox="0 0 100 125"
+                  >
+                    <path d="M44.5,24.7c-7,3-12.4,6.3-16.2,9.9c-3.9,3.6-5.8,8.2-5.8,13.8c0,5.1,1.7,9.1,5.2,12c3.5,2.9,7.6,4.8,12.3,5.8  c0.9,0.2,1.8,0.8,2.7,1.7c0.8,0.9,1.3,2.3,1.3,3.9c0,3.8-1.4,6.5-4.2,8.2c-2.8,1.7-5.5,2.5-7.9,2.5h-0.3c-3,0-6.1-0.7-9.2-2  c-3.1-1.3-5.9-3.1-8.5-5.5c-2.5-2.4-4.7-5.3-6.3-8.7C5.8,62.9,5,58.9,5,54.4c0-5.1,1.1-9.6,3.2-13.7c2.2-4,5-7.6,8.5-10.7  c3.5-3.1,7.4-5.7,11.7-7.8c4.3-2.1,8.7-3.7,13.3-4.8L44.5,24.7z" />
+                    <path d="M95,24.7c-7,3-12.4,6.3-16.2,9.9c-3.9,3.6-5.8,8.2-5.8,13.8c0,5.1,1.7,9.1,5.2,12c3.5,2.9,7.6,4.8,12.3,5.8  c0.9,0.2,1.8,0.8,2.7,1.7c0.8,0.9,1.3,2.3,1.3,3.9c0,3.8-1.4,6.5-4.2,8.2c-2.8,1.7-5.5,2.5-7.9,2.5H82c-3,0-6.1-0.7-9.2-2  c-3.1-1.3-5.9-3.1-8.5-5.5c-2.5-2.4-4.7-5.3-6.3-8.7c-1.7-3.5-2.5-7.5-2.5-12c0-5.1,1.1-9.6,3.2-13.7c2.2-4,5-7.6,8.5-10.7  c3.5-3.1,7.4-5.7,11.7-7.8c4.3-2.1,8.7-3.7,13.3-4.8L95,24.7z" />
+                  </svg>
                   <p className=" italic text-gray-700 justify-between">
                     We have a community center stranding obsolete and youth
                     hanging around in boredom not attending school. We have been
@@ -111,8 +159,19 @@ function TheNeed(props) {
                   <p>Mamfehene & Kyidomhene of Akuapem, Ghana</p>
                 </div>
 
-                <div className="bg-white block w-full p-6 text-center h_fit_content rounded-md ">
-                  <span className="text-4xl italic leading-snug">&quot;</span>
+                <div className="bg-white block w-full p-6 text-center h_fit_content flex-col rounded-md ">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    version="1.1"
+                    x="0px"
+                    y="0px"
+                    className="w-6 m-auto"
+                    viewBox="0 0 100 125"
+                  >
+                    <path d="M44.5,24.7c-7,3-12.4,6.3-16.2,9.9c-3.9,3.6-5.8,8.2-5.8,13.8c0,5.1,1.7,9.1,5.2,12c3.5,2.9,7.6,4.8,12.3,5.8  c0.9,0.2,1.8,0.8,2.7,1.7c0.8,0.9,1.3,2.3,1.3,3.9c0,3.8-1.4,6.5-4.2,8.2c-2.8,1.7-5.5,2.5-7.9,2.5h-0.3c-3,0-6.1-0.7-9.2-2  c-3.1-1.3-5.9-3.1-8.5-5.5c-2.5-2.4-4.7-5.3-6.3-8.7C5.8,62.9,5,58.9,5,54.4c0-5.1,1.1-9.6,3.2-13.7c2.2-4,5-7.6,8.5-10.7  c3.5-3.1,7.4-5.7,11.7-7.8c4.3-2.1,8.7-3.7,13.3-4.8L44.5,24.7z" />
+                    <path d="M95,24.7c-7,3-12.4,6.3-16.2,9.9c-3.9,3.6-5.8,8.2-5.8,13.8c0,5.1,1.7,9.1,5.2,12c3.5,2.9,7.6,4.8,12.3,5.8  c0.9,0.2,1.8,0.8,2.7,1.7c0.8,0.9,1.3,2.3,1.3,3.9c0,3.8-1.4,6.5-4.2,8.2c-2.8,1.7-5.5,2.5-7.9,2.5H82c-3,0-6.1-0.7-9.2-2  c-3.1-1.3-5.9-3.1-8.5-5.5c-2.5-2.4-4.7-5.3-6.3-8.7c-1.7-3.5-2.5-7.5-2.5-12c0-5.1,1.1-9.6,3.2-13.7c2.2-4,5-7.6,8.5-10.7  c3.5-3.1,7.4-5.7,11.7-7.8c4.3-2.1,8.7-3.7,13.3-4.8L95,24.7z" />
+                  </svg>
+
                   <p className=" italic text-gray-700">
                     The leadership and responsibility for building Africa rests
                     squarely on Africans. The River Centers are relevant
@@ -133,12 +192,21 @@ function TheNeed(props) {
                 </div>
 
                 <div className="bg-white block w-full p-6 text-center h_fit_content rounded-md ">
-                  <span className="text-4xl italic leading-snug">&quot;</span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    version="1.1"
+                    x="0px"
+                    y="0px"
+                    className="w-6 m-auto"
+                    viewBox="0 0 100 125"
+                  >
+                    <path d="M44.5,24.7c-7,3-12.4,6.3-16.2,9.9c-3.9,3.6-5.8,8.2-5.8,13.8c0,5.1,1.7,9.1,5.2,12c3.5,2.9,7.6,4.8,12.3,5.8  c0.9,0.2,1.8,0.8,2.7,1.7c0.8,0.9,1.3,2.3,1.3,3.9c0,3.8-1.4,6.5-4.2,8.2c-2.8,1.7-5.5,2.5-7.9,2.5h-0.3c-3,0-6.1-0.7-9.2-2  c-3.1-1.3-5.9-3.1-8.5-5.5c-2.5-2.4-4.7-5.3-6.3-8.7C5.8,62.9,5,58.9,5,54.4c0-5.1,1.1-9.6,3.2-13.7c2.2-4,5-7.6,8.5-10.7  c3.5-3.1,7.4-5.7,11.7-7.8c4.3-2.1,8.7-3.7,13.3-4.8L44.5,24.7z" />
+                    <path d="M95,24.7c-7,3-12.4,6.3-16.2,9.9c-3.9,3.6-5.8,8.2-5.8,13.8c0,5.1,1.7,9.1,5.2,12c3.5,2.9,7.6,4.8,12.3,5.8  c0.9,0.2,1.8,0.8,2.7,1.7c0.8,0.9,1.3,2.3,1.3,3.9c0,3.8-1.4,6.5-4.2,8.2c-2.8,1.7-5.5,2.5-7.9,2.5H82c-3,0-6.1-0.7-9.2-2  c-3.1-1.3-5.9-3.1-8.5-5.5c-2.5-2.4-4.7-5.3-6.3-8.7c-1.7-3.5-2.5-7.5-2.5-12c0-5.1,1.1-9.6,3.2-13.7c2.2-4,5-7.6,8.5-10.7  c3.5-3.1,7.4-5.7,11.7-7.8c4.3-2.1,8.7-3.7,13.3-4.8L95,24.7z" />
+                  </svg>{" "}
                   <p className=" italic text-gray-700">
                     This is very interesting – I can see the huge potential in
                     this.
                   </p>
-
                   <div className="text-center m-auto w-1/2">
                     <Image
                       className="my-4  m-auto block rounded-full"
@@ -149,13 +217,22 @@ function TheNeed(props) {
                   <p>Principal Secretary in the Kenyan Ministry of Finance</p>
                 </div>
                 <div className="bg-white block w-full p-6 text-center h_fit_content rounded-md ">
-                  <span className="text-4xl italic leading-snug">&quot;</span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    version="1.1"
+                    x="0px"
+                    y="0px"
+                    className="w-6 m-auto"
+                    viewBox="0 0 100 125"
+                  >
+                    <path d="M44.5,24.7c-7,3-12.4,6.3-16.2,9.9c-3.9,3.6-5.8,8.2-5.8,13.8c0,5.1,1.7,9.1,5.2,12c3.5,2.9,7.6,4.8,12.3,5.8  c0.9,0.2,1.8,0.8,2.7,1.7c0.8,0.9,1.3,2.3,1.3,3.9c0,3.8-1.4,6.5-4.2,8.2c-2.8,1.7-5.5,2.5-7.9,2.5h-0.3c-3,0-6.1-0.7-9.2-2  c-3.1-1.3-5.9-3.1-8.5-5.5c-2.5-2.4-4.7-5.3-6.3-8.7C5.8,62.9,5,58.9,5,54.4c0-5.1,1.1-9.6,3.2-13.7c2.2-4,5-7.6,8.5-10.7  c3.5-3.1,7.4-5.7,11.7-7.8c4.3-2.1,8.7-3.7,13.3-4.8L44.5,24.7z" />
+                    <path d="M95,24.7c-7,3-12.4,6.3-16.2,9.9c-3.9,3.6-5.8,8.2-5.8,13.8c0,5.1,1.7,9.1,5.2,12c3.5,2.9,7.6,4.8,12.3,5.8  c0.9,0.2,1.8,0.8,2.7,1.7c0.8,0.9,1.3,2.3,1.3,3.9c0,3.8-1.4,6.5-4.2,8.2c-2.8,1.7-5.5,2.5-7.9,2.5H82c-3,0-6.1-0.7-9.2-2  c-3.1-1.3-5.9-3.1-8.5-5.5c-2.5-2.4-4.7-5.3-6.3-8.7c-1.7-3.5-2.5-7.5-2.5-12c0-5.1,1.1-9.6,3.2-13.7c2.2-4,5-7.6,8.5-10.7  c3.5-3.1,7.4-5.7,11.7-7.8c4.3-2.1,8.7-3.7,13.3-4.8L95,24.7z" />
+                  </svg>{" "}
                   <p className=" italic text-gray-700">
                     It is exactly the combination of trade and community
                     activities and learning that match the current need in Kenya
                     right now – this is brilliant. Trade does not do it alone.
                   </p>
-
                   <div className="text-center m-auto w-1/2">
                     <Image
                       className="my-4  m-auto block rounded-full"

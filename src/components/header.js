@@ -23,7 +23,7 @@ function Header() {
           <div className="flex items-center ">
             <Logo
               alt={site.siteMetadata.title}
-              className="w-32 md:w-48 align-top h-auto"
+              className="w-32 md:w-32 lg:w-48 align-top h-auto"
             />
           </div>
         </Link>
@@ -54,9 +54,9 @@ function Header() {
             },
             {
               route: `/story`,
-              title: `The Story`,
+              title: `Learn about GRC`,
               subroutes: [
-                { route: "/story#why", title: "Why?" },
+                { route: "/story", title: "Our Story" },
                 { route: "/story#our-vision", title: "Our Vision" },
                 { route: "/story#the-need", title: "The Need" },
                 { route: "/story#faq", title: "FAQ" },
@@ -64,13 +64,24 @@ function Header() {
             },
             {
               route: `/our-concept`,
-              title: `Our Concept`,
-              subroutes: [{ route: "/strategy", title: "Our Strategy" }],
+              title: `What we do`,
+              subroutes: [
+                { route: "/our-concept", title: "Our Concept" },
+                {
+                  route: "/our-concept#infrastructure",
+                  title: "Infrastructure",
+                },
+                { route: "/our-concept#trading", title: "Hubs" },
+                { route: "/our-concept#health", title: "Health" },
+
+                { route: "/strategy", title: "Our Strategy" },
+              ],
             },
             {
               route: `/team`,
-              title: `Who are we`,
+              title: `The people`,
               subroutes: [
+                { route: "/team", title: "Team" },
                 { route: "/advisors", title: "Advisors" },
                 { route: "/partners", title: "Our Partners" },
               ],
@@ -86,8 +97,8 @@ function Header() {
             },
           ].map((link) => (
             <Dropdown
-              className="block mt-4 text-white font-light pb-2 no-underline md:inline-block md:mt-0 md:mx-8 relative"
-              activeClassName="font-bold    "
+              className="block mt-4 text-white md:text-sm lg:text-base font-light pb-2 no-underline md:inline-block md:mt-0 md:mx-2 lg:mx-3 relative"
+              activeClassName="font-bold "
               key={link.title}
               pageName={link.title}
               to={link.route}

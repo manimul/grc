@@ -78,7 +78,7 @@ const ConceptSection = (props) => {
       {props.fullPage ? (
         <div>
           <section
-            id="concept-intro"
+            id="infrastructure"
             className="[infrastructure] md:grid grid-cols-2   md:min-h-screen/2/3 "
           >
             <BackgroundImage
@@ -112,7 +112,10 @@ const ConceptSection = (props) => {
             </div>
           </section>
 
-          <section className="[trading] md:grid grid-cols-2 min-h-screen/2/3">
+          <section
+            id="trading"
+            className="[trading] md:grid grid-cols-2 min-h-screen/2/3"
+          >
             <div className="p-12 md:p-24 max-w-2xl">
               <h3 className="inline-block text-xl  mb-1 text-black text-opacity-50 uppercase">
                 Empowering trade and commerce
@@ -140,7 +143,10 @@ const ConceptSection = (props) => {
             </BackgroundImage>
           </section>
 
-          <section className="[entertainment] md:grid grid-cols-2 min-h-screen/2/3 ">
+          <section
+            id="entertainment"
+            className="[entertainment] md:grid grid-cols-2 min-h-screen/2/3 "
+          >
             <BackgroundImage
               Tag={`section`}
               id={`test`}
@@ -170,7 +176,10 @@ const ConceptSection = (props) => {
             </div>
           </section>
 
-          <section className="[community] md:grid grid-cols-2 md:min-h-screen/2/3">
+          <section
+            id="community"
+            className="[community] md:grid grid-cols-2 md:min-h-screen/2/3"
+          >
             <div className="p-12 md:p-24 max-w-2xl">
               <h3 className="inline-block text-xl  mb-1 text-black text-opacity-50 uppercase">
                 Supporting the local community
@@ -200,7 +209,10 @@ const ConceptSection = (props) => {
             </BackgroundImage>
           </section>
 
-          <section className="[education] md:grid grid-cols-2 min-h-screen/2/3 ">
+          <section
+            id="learning"
+            className="[learning] md:grid grid-cols-2 min-h-screen/2/3 "
+          >
             <BackgroundImage
               Tag={`section`}
               id={`test`}
@@ -209,7 +221,7 @@ const ConceptSection = (props) => {
             >
               <div className="bg-grc-yellow  inline-block p-6   text-white md:w-2/5">
                 <h2 className="font-bold text-lg md:text-3xl md:pr-24">
-                  River<br></br> Education<br></br> Hub
+                  River<br></br> Learning<br></br> Hub
                 </h2>
               </div>
             </BackgroundImage>
@@ -218,8 +230,8 @@ const ConceptSection = (props) => {
                 Strenghtening skill sets
               </h3>
               <p className="inline-block text-xl md:text-4xl font-bold mb-4 leading-tight">
-                River Education Hub is the name given to education and skills
-                learning facilities and programs that take place in the center.
+                River Learning Hub is the name given to the skills learning
+                facilities and programs that take place in the center.
               </p>
 
               <p className="mb-4">
@@ -227,16 +239,13 @@ const ConceptSection = (props) => {
                 include: digital and financial literacy, adult literacy,
                 sustainable business development, and agricultural practices.
               </p>
-              <a
-                href="#"
-                className=" underline font-bold block m-auto text-green-700"
-              >
-                Learn more about our concept{" "}
-              </a>
             </div>
           </section>
 
-          <section className="[vision] md:grid grid-cols-2 min-h-screen/2/3">
+          <section
+            id="health"
+            className="[health] md:grid grid-cols-2 min-h-screen/2/3"
+          >
             <div className="p-12 md:p-24 max-w-2xl">
               <h3 className="inline-block text-xl  mb-1 text-black text-opacity-50 uppercase">
                 River Center Health
@@ -247,13 +256,12 @@ const ConceptSection = (props) => {
               </p>
 
               <p className="mb-4">
-                The Trading hub will include a pharmacy - The Education Hub will
+                The Trading hub will include a pharmacy - The Learning Hub will
                 inform and train in preventive measures to stay healthy – The
                 Entertainment hub will host sports and health related events –
-                The Community Hub will provide medical services especially for
-                reproductive healthcare but also having a general practitioner
-                and inviting specialists from different health related fields
-                in.
+                The Community Hub will provide medical services but also have
+                other health care practitioners that are lacking in the
+                different areas and inviting specialists.
               </p>
             </div>
             <BackgroundImage
@@ -304,7 +312,7 @@ const ConceptSection = (props) => {
                       An environment designed to support local trade...
                     </p>
                     <Link
-                      to="/our-concept"
+                      to="/our-concept#infrastructure"
                       className="underline font-bold block m-auto"
                     >
                       Learn more
@@ -327,7 +335,7 @@ const ConceptSection = (props) => {
                       Centers...
                     </p>
                     <Link
-                      to="/our-concept"
+                      to="/our-concept#health"
                       className="underline font-bold block m-auto"
                     >
                       Learn more
@@ -349,7 +357,7 @@ const ConceptSection = (props) => {
                       An environment designed to support local trade.
                     </p>
                     <Link
-                      to="/our-concept"
+                      to="/our-concept#trading"
                       className="underline font-bold block m-auto"
                     >
                       Learn more
@@ -371,7 +379,7 @@ const ConceptSection = (props) => {
                       An enviroment for local community gatherings.
                     </p>
                     <Link
-                      to="/our-concept"
+                      to="/our-concept#community"
                       className="underline font-bold block m-auto"
                     >
                       Learn more
@@ -393,7 +401,7 @@ const ConceptSection = (props) => {
                       A space tailored for sports, arts and cultural activities.
                     </p>
                     <Link
-                      to="/our-concept"
+                      to="/our-concept#entertainment"
                       className="underline font-bold block m-auto"
                     >
                       Learn more
@@ -409,14 +417,14 @@ const ConceptSection = (props) => {
                 >
                   <div className="bg-grc-yellow  inline-block p-6 w-3/4 md:w-1/2">
                     <h3 className="font-bold  text-xl">
-                      River<br></br> Education<br></br> Hub
+                      River<br></br> Learning<br></br> Hub
                     </h3>
                     <p className="text-sm my-4">
-                      Education and skills learning facilities and programs that
-                      take place in the center.
+                      The name given to the skills learning facilities that take
+                      place in the center.
                     </p>
                     <Link
-                      to="/our-concept"
+                      to="/our-concept#learning"
                       className="underline font-bold block m-auto"
                     >
                       Learn more

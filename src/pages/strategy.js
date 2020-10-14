@@ -21,18 +21,18 @@ function StrategyPage() {
 
       <section
         id="strategy-intro"
-        className="[vision] grid grid-cols-2 h-screen/2/3 "
+        className="[vision] md:grid grid-cols-2 h-auto "
       >
         <Image
           filename="concept-needs.jpeg"
           className="h-auto w-full object-cover object-center"
         />
 
-        <div className="p-24 max-w-2xl">
+        <div className="p-12 md:p-24 max-w-2xl">
           <h2 className="inline-block text-xl  mb-1 text-black text-opacity-50 uppercase">
             Meeting the needs of the market.
           </h2>
-          <p className="inline-block text-4xl font-bold mb-4 leading-tight">
+          <p className="inline-block text-xl md:text-4xl font-bold mb-4 leading-tight">
             We supply a much needed concept to a market with a capacity and
             willingness to spend.
           </p>
@@ -46,12 +46,12 @@ function StrategyPage() {
         </div>
       </section>
 
-      <section className="[vision] grid grid-cols-2 h-screen/2/3 ">
-        <div className="p-24 max-w-2xl">
+      <section className="[vision] md:grid grid-cols-2 md:h-auto  lg:h-screen/2/3 ">
+        <div className="p-12 md:p-24 max-w-2xl">
           <h2 className="inline-block text-xl  mb-1 text-black text-opacity-50 uppercase">
             Strategic Partnerships
           </h2>
-          <p className="inline-block text-4xl font-bold mb-4 leading-tight">
+          <p className="inline-block text-xl md:text-4xl font-bold mb-4 leading-tight">
             We make strategic partnerships with industry leaders
           </p>
           <p className="mb-4">
@@ -74,9 +74,9 @@ function StrategyPage() {
         />
       </section>
 
-      <section className="[cta_taskforce] p-24 cta_blue_wiggles  text-white text-center">
+      <section className="[cta_taskforce] p-12 md:p-24 cta_blue_wiggles  text-white text-center">
         <div className="max-w-4xl m-auto">
-          <p className="inline-block text-4xl font-bold mb-4">
+          <p className="inline-block text-xl md:text-4xl font-bold mb-4">
             We are always looking to develop new partnerships. If you would like
             to partner with us please get in touch.
           </p>
@@ -89,17 +89,17 @@ function StrategyPage() {
         </div>
       </section>
 
-      <section className="[vision] grid grid-cols-2 h-screen/2/3 ">
+      <section className="[vision] md:grid grid-cols-2 md:h-screen/2/3 ">
         <Image
           filename="concept-team.jpeg"
           className="h-auto w-full object-cover object-center"
         />
 
-        <div className="p-24 max-w-2xl">
+        <div className="p-12 md:p-24 md:max-w-2xl">
           <h2 className="inline-block text-xl  mb-1 text-black text-opacity-50 uppercase">
             Team of experts
           </h2>
-          <p className="inline-block text-4xl font-bold mb-4 leading-tight">
+          <p className="inline-block text-xl md:text-4xl font-bold mb-4 leading-tight">
             We are led by an experienced, professional, multi-disciplinary
             managment team.
           </p>

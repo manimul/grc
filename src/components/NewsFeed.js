@@ -1,4 +1,6 @@
 import React from "react";
+import Image from "./Image";
+import { Link } from "gatsby";
 
 function NewsFeed() {
   return (
@@ -13,90 +15,81 @@ function NewsFeed() {
       </div>
 
       <div className="[news_grid] md:max-w-6xl md:grid grid-cols-3 gap-12 mb-12  m-auto text-center">
-        <article className="[news_card] hover:bg-white opacity-75 transition duration-500 ease-in-out hover:opacity-100 transform hover:-translate-y-1 rounded-lg cursor-pointer hover:shadow-xl">
-          <div className="[card_media]">
-            <img
-              className="h-full w-full object-cover object-center"
-              src="https://source.unsplash.com/600x400/?business"
-            />
-          </div>
+        <Link to="/news/khadija-jorgen">
+          <article className="[news_card] hover:bg-white opacity-75 transition duration-500 ease-in-out hover:opacity-100 transform hover:-translate-y-1 rounded-lg cursor-pointer hover:shadow-xl">
+            <div className="[card_media]">
+              <Image filename="khadija-jorgen.jpg"></Image>
+            </div>
 
-          <div className="[card_content] p-4 ">
-            <header>
-              <h2 className="text-lg font-bold">
-                This is the headline of the news article and it....
-              </h2>
-            </header>
-            <footer>
-              <span>Aug 05 2020</span>
-              <a
-                href="#"
-                className=" underline font-bold block m-auto text-green-700"
-              >
-                Linkedin
-              </a>
-            </footer>
-          </div>
-        </article>
+            <div className="[card_content] p-4 ">
+              <header>
+                <h2 className="text-lg font-bold">Khadija Meets Jørgen....</h2>
+              </header>
+              <footer>
+                <p>4th September 2020</p>
+                <Link
+                  to="/news/khadija-jorgen"
+                  className=" underline font-bold block m-auto text-green-700"
+                >
+                  Read Now
+                </Link>
+              </footer>
+            </div>
+          </article>
+        </Link>
+        <Link to="/news/healthy-growth">
+          <article className="[news_card] hover:bg-white opacity-75 transition duration-500 ease-in-out hover:opacity-100 transform hover:-translate-y-1 rounded-lg cursor-pointer hover:shadow-xl">
+            <div className="[card_media]">
+              <Image filename="healthy-growth.jpg"></Image>
+            </div>
 
-        <article className="[news_card] hover:bg-white opacity-75 transition duration-500 ease-in-out hover:opacity-100 transform hover:-translate-y-1 rounded-lg cursor-pointer hover:shadow-xl">
-          <div className="[card_media]">
-            <img
-              className="h-full w-full object-cover object-center"
-              src="https://source.unsplash.com/600x400/?africa"
-            />
-          </div>
+            <div className="[card_content] p-4 ">
+              <header>
+                <h2 className="text-lg font-bold">
+                  Healthy Growth, New Shoots....
+                </h2>
+              </header>
+              <footer>
+                <p>26th August 2020</p>
+                <Link
+                  to="/news/healthy-growth"
+                  className=" underline font-bold block m-auto text-green-700"
+                >
+                  Read Now
+                </Link>
+              </footer>
+            </div>
+          </article>
+        </Link>
+        <Link to="/news/new-partners">
+          <article className="[news_card] hover:bg-white opacity-75 transition duration-500 ease-in-out hover:opacity-100 transform hover:-translate-y-1 rounded-lg cursor-pointer hover:shadow-xl">
+            <div className="[card_media]">
+              <Image filename="new-partners.jpg"></Image>
+            </div>
 
-          <div className="[card_content] p-4 ">
-            <header>
-              <h2 className="text-lg font-bold">
-                This is the headline of the news article and it....
-              </h2>
-            </header>
-            <footer>
-              <span>Aug 05 2020</span>
-              <a
-                href="#"
-                className=" underline font-bold block m-auto text-green-700"
-              >
-                Linkedin
-              </a>
-            </footer>
-          </div>
-        </article>
-
-        <article className="[news_card] hover:bg-white opacity-75 transition duration-500 ease-in-out hover:opacity-100 transform hover:-translate-y-1 rounded-lg cursor-pointer hover:shadow-xl">
-          <div className="[card_media]">
-            <img
-              className="h-full w-full object-cover object-center"
-              src="https://source.unsplash.com/600x400/?africans"
-            />
-          </div>
-
-          <div className="[card_content] p-4 ">
-            <header>
-              <h2 className="text-lg font-bold">
-                This is the headline of the news article and it....
-              </h2>
-            </header>
-            <footer>
-              <span>Aug 05 2020</span>
-              <a
-                href="#"
-                className=" underline font-bold block m-auto text-green-700"
-              >
-                Linkedin
-              </a>
-            </footer>
-          </div>
-        </article>
+            <div className="[card_content] p-4 ">
+              <header>
+                <h2 className="text-lg font-bold">Our New Partners...</h2>
+              </header>
+              <footer>
+                <p>26th August 2020</p>
+                <Link
+                  to="/news/new-partners"
+                  className=" underline font-bold block m-auto text-green-700"
+                >
+                  Read Now
+                </Link>
+              </footer>
+            </div>
+          </article>
+        </Link>
       </div>
-      <a
-        href="#"
+      <Link
+        to="/news"
         className="text-center underline font-bold block m-auto text-green-700"
       >
         Read More News
-      </a>
+      </Link>
     </section>
   );
 }

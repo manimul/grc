@@ -95,7 +95,7 @@ function AdvisorGrid() {
           <div className="[card_media]">
             <Image
               className="h-full w-full object-cover object-center"
-              filename="niels.jpg"
+              filename="kaliefah.jpg"
             />
           </div>
 

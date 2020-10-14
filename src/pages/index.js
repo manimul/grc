@@ -13,8 +13,8 @@ import SDG from "../images/sdgs.svg";
 import ConceptSection from "../components/ConceptSection";
 import PartnerRow from "../components/PartnerRow";
 import TheNeed from "../components/TheNeed";
-import { AnchorLink } from "gatsby-plugin-anchor-links";
 import CtaTaskforce from "../components/CtaTaskforce";
+import Button from "../components/Button";
 
 const BackgroundSection = ({ className }) => (
   <StaticQuery
@@ -65,12 +65,10 @@ const BackgroundSection = ({ className }) => (
                 quality of life in non-urban African communities by offering a
                 viable alternative to city migration.
               </p>
-              <AnchorLink
-                to="/#vision"
-                className="inline-block mt-4 border-white border-2 px-4 py-2"
-              >
+
+              <Button anchor={true} to="/#vision" text="Learn More">
                 Learn More
-              </AnchorLink>
+              </Button>
             </div>
             <PartnerRow></PartnerRow>
           </div>
@@ -102,7 +100,7 @@ function IndexPage() {
           </h2>
           <p className="inline-block text-xl md:text-4xl font-bold mb-4 leading-tight">
             Enhancing the quality of life for citizens in non-urban sub-Saharan
-            Africa by building 200 Global River Centers
+            Africa by building 200 River Centers
           </p>
 
           <p className="inline-block font-bold mb-4">

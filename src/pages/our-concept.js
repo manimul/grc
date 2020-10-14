@@ -3,7 +3,7 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 import HeroSmall from "../components/HeroSmall";
 import ConceptSection from "../components/ConceptSection";
-import { Link } from "gatsby";
+import Button from "../components/Button";
 
 function ConceptPage() {
   return (
@@ -15,7 +15,7 @@ function ConceptPage() {
       <HeroSmall
         title="Our Concept"
         heading="An innovative and creative combination of needed elements in a cutting-edge sustainable building."
-        linkTo="/our-concept#concept-intro"
+        linkTo="/our-concept#infrastructure"
       ></HeroSmall>
 
       <ConceptSection fullPage={true}></ConceptSection>
@@ -26,12 +26,11 @@ function ConceptPage() {
             We combine our concept with a strong management team and leading
             industry partners
           </p>
-          <Link
-            to="/strategy"
-            className="inline-block mt-4 border-white border-2 px-4 py-2"
-          >
+
+          <Button link={true} to="/strategy">
+            {" "}
             Learn More About Our Strategy
-          </Link>
+          </Button>
         </div>
       </section>
     </Layout>

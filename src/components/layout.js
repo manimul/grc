@@ -1,8 +1,7 @@
 import PropTypes from "prop-types";
 import React from "react";
-import Logo from "../images/grc-logo.svg";
-
 import Header from "./header";
+import Footer from "./Footer";
 
 function Layout({ children }) {
   return (
@@ -11,8 +10,11 @@ function Layout({ children }) {
 
       <main className="flex-1 w-full  mx-auto  pt-24 -mt-24">{children}</main>
 
-      <section id="contact-us" className="[contact] md:grid grid-cols-2 gap-4 ">
-        <div className="p-12 md:p-24">
+      <section
+        id="contact-us"
+        className="[contact] md:grid grid-cols-2 gap-4  md:max-w-6xl m-auto"
+      >
+        <div className="p-12 md:px-0 md:py-24">
           <h2 className="inline-block text-xl  mb-1 text-black text-opacity-50 uppercase">
             Contact Us
           </h2>
@@ -26,16 +28,10 @@ function Layout({ children }) {
             equally enthuastic to discuss our concept with interested parties.
             If this sounds like you get in touch.
           </p>
-          <a
-            href="#"
-            className=" underline font-bold block m-auto text-green-700"
-          >
-            Learn more about our concept{" "}
-          </a>
         </div>
         <div className="p-12 md:p-24">
           <form className="w-full max-w-lg">
-            <div className="flex flex-wrap -mx-3 mb-6">
+            <div className="flex flex-wrap  -mx-3 mb-6">
               <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                 <label
                   className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
@@ -97,7 +93,7 @@ function Layout({ children }) {
             <div className="md:flex md:items-center">
               <div className="md:w-1/3">
                 <button
-                  className="shadow bg-teal-400 hover:bg-teal-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
+                  className="border-grc-navy text-grc-navy hover:text-white hover:bg-grc-navy inline-block mt-4  border-2 px-4 py-2"
                   type="button"
                 >
                   Send
@@ -109,155 +105,7 @@ function Layout({ children }) {
         </div>
       </section>
 
-      <footer className="bg-grc-navy ">
-        <div className="p-12  text-center md:text-left md:p-0 flex flex-wrap justify-between max-w-6xl  mx-auto text-white text-sm md:py-24">
-          <div className=" w-full md:w-1/4 md:pr-12 ">
-            <Logo className="w-full md:w-4/5 h-auto"></Logo>
-            <p className="py-4 md:pr-4">
-              Our River Center concept combines in-demand services in a
-              sustainable commercial business model.{" "}
-            </p>
-            <div className="[social_icons] inline-flex ">
-              <img
-                className="md:w-1/4 md:pr-2 "
-                src="https://via.placeholder.com/32x32"
-              />
-              <img
-                className="md:w-1/4 md:pr-2"
-                src="https://via.placeholder.com/32x32"
-              />
-              <img
-                className="md:w-1/4 md:pr-2"
-                src="https://via.placeholder.com/32x32"
-              />
-              <img
-                className="md:w-1/4 md:pr-2"
-                src="https://via.placeholder.com/32x32"
-              />
-            </div>
-            <p className="py-4 font-bold">#BuildingBetterFutures</p>
-          </div>
-
-          <div className="w-1/2 md:w-1/4">
-            <nav className="pb-8">
-              <h1 className="font-bold pb-2">The Story</h1>
-              <ul>
-                <li className="pb-1 opacity-75 hover:opacity-100 cursor-pointer">
-                  <a href="#">The Problem</a>
-                </li>
-                <li className="pb-1 opacity-75 hover:opacity-100 cursor-pointer">
-                  <a href="#">The Problem</a>
-                </li>
-                <li className="pb-1 opacity-75 hover:opacity-100 cursor-pointer">
-                  <a href="#">The Problem</a>
-                </li>
-                <li className="pb-1 opacity-75 hover:opacity-100 cursor-pointer">
-                  <a href="#">The Problem</a>
-                </li>
-              </ul>
-            </nav>
-
-            <nav className="pb-8">
-              <h1 className="font-bold pb-2">The Story</h1>
-              <ul>
-                <li className="pb-1 opacity-75 hover:opacity-100 cursor-pointer">
-                  <a href="#">The Problem</a>
-                </li>
-                <li className="pb-1 opacity-75 hover:opacity-100 cursor-pointer">
-                  <a href="#">The Problem</a>
-                </li>
-                <li className="pb-1 opacity-75 hover:opacity-100 cursor-pointer">
-                  <a href="#">The Problem</a>
-                </li>
-                <li className="pb-1 opacity-75 hover:opacity-100 cursor-pointer">
-                  <a href="#">The Problem</a>
-                </li>
-              </ul>
-            </nav>
-          </div>
-
-          <div className="w-1/2 md:w-1/4">
-            <nav className="pb-8">
-              <h1 className="font-bold pb-2">The Story</h1>
-              <ul>
-                <li className="pb-1 opacity-75 hover:opacity-100 cursor-pointer">
-                  <a href="#">The Problem</a>
-                </li>
-                <li className="pb-1 opacity-75 hover:opacity-100 cursor-pointer">
-                  <a href="#">The Problem</a>
-                </li>
-                <li className="pb-1 opacity-75 hover:opacity-100 cursor-pointer">
-                  <a href="#">The Problem</a>
-                </li>
-                <li className="pb-1 opacity-75 hover:opacity-100 cursor-pointer">
-                  <a href="#">The Problem</a>
-                </li>
-              </ul>
-            </nav>
-
-            <nav className="pb-8">
-              <h1 className="font-bold pb-2">The Story</h1>
-              <ul>
-                <li className="pb-1 opacity-75 hover:opacity-100 cursor-pointer">
-                  <a href="#">The Problem</a>
-                </li>
-                <li className="pb-1 opacity-75 hover:opacity-100 cursor-pointer">
-                  <a href="#">The Problem</a>
-                </li>
-                <li className="pb-1 opacity-75 hover:opacity-100 cursor-pointer">
-                  <a href="#">The Problem</a>
-                </li>
-                <li className="pb-1 opacity-75 hover:opacity-100 cursor-pointer">
-                  <a href="#">The Problem</a>
-                </li>
-              </ul>
-            </nav>
-          </div>
-
-          <div className="w-full flex flex-row md:flex-col md:w-1/4">
-            <nav className="w-1/2 pb-8">
-              <h1 className="font-bold pb-2">The Story</h1>
-              <ul>
-                <li className="pb-1 opacity-75 hover:opacity-100 cursor-pointer">
-                  <a href="#">The Problem</a>
-                </li>
-                <li className="pb-1 opacity-75 hover:opacity-100 cursor-pointer">
-                  <a href="#">The Problem</a>
-                </li>
-                <li className="pb-1 opacity-75 hover:opacity-100 cursor-pointer">
-                  <a href="#">The Problem</a>
-                </li>
-                <li className="pb-1 opacity-75 hover:opacity-100 cursor-pointer">
-                  <a href="#">The Problem</a>
-                </li>
-              </ul>
-            </nav>
-
-            <nav className=" w-1/2 pb-8">
-              <h1 className="font-bold pb-2">The Story</h1>
-              <ul>
-                <li className="pb-1 opacity-75 hover:opacity-100 cursor-pointer">
-                  <a href="#">The Problem</a>
-                </li>
-                <li className="pb-1 opacity-75 hover:opacity-100 cursor-pointer">
-                  <a href="#">The Problem</a>
-                </li>
-                <li className="pb-1 opacity-75 hover:opacity-100 cursor-pointer">
-                  <a href="#">The Problem</a>
-                </li>
-                <li className="pb-1 opacity-75 hover:opacity-100 cursor-pointer">
-                  <a href="#">The Problem</a>
-                </li>
-              </ul>
-            </nav>
-          </div>
-        </div>
-        <div className="flex-row border-t border-white  opacity-25 max-w-6xl m-auto  text-white text-center">
-          <p className="py-6 text-sm">
-            Global River Center A/S 2020 | CVR: 40882669
-          </p>
-        </div>
-      </footer>
+      <Footer></Footer>
     </div>
   );
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "gatsby";
+import Button from "./Button";
 
 function CtaTaskforce() {
   return (
@@ -14,12 +14,10 @@ function CtaTaskforce() {
             Would you like to join the mission to improve the quality of life
             for thousands of young Africans?
           </p>
-          <Link
-            to="/contact"
-            className="inline-block mt-4 border-white border-2 px-4 py-2"
-          >
+
+          <Button link={true} to="/contact">
             Join the taskforce
-          </Link>
+          </Button>
         </div>
       </section>
     </div>
