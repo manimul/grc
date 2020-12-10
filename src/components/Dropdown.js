@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Link } from "gatsby";
+import React, { useState } from 'react';
+import { Link } from 'gatsby';
 
 function Dropdown({
   key,
@@ -29,20 +29,20 @@ function Dropdown({
           <ul
             className={`${
               !isActive
-                ? `hidden `
-                : `block hover:-translate-y-3 transition-all duration-500 ease-in-out transform`
-            }  md:items-center   py-3  absolute w-32  rounded-md  `}
+                ? `hidden  `
+                : `block md:hover:-translate-y-3 md:transition-all duration-500 ease-in-out transform`
+            }  md:items-center   md:py-3  md:absolute md:w-32  md:rounded-md  `}
           >
             {subs.map((sub) => (
               <li
                 key={sub.title}
-                className="bg-white p-3  pl-3 -ml-3 inline-block w-full cursor-pointer hover:bg-gray-200 transition-all duration-500 ease-in-out transform"
+                className='md:bg-white md:p-3  md:pl-3 md:-ml-3 inline-block w-full cursor-pointer hover:bg-gray-200 transition-all duration-500 ease-in-out transform'
               >
                 <Link
                   to={sub.route}
                   key={sub.title}
-                  className="text-black"
-                  activeClassName="font-bold    "
+                  className='md:text-black text-gray-700 text-sm'
+                  activeClassName='font-bold    '
                 >
                   {sub.title}
                 </Link>

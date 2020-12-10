@@ -45,7 +45,9 @@ module.exports = {
   },
   variants: {
     filter: ["responsive"], // defaults to ['responsive']
+    scrollSnapType: ["responsive"],
   },
   // https://github.com/tailwindcss/custom-forms
   plugins: [require("@tailwindcss/custom-forms", "tailwindcss-filters")],
+  plugins: [require("tailwindcss-scroll-snap")],
 };

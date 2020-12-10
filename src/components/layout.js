@@ -2,13 +2,16 @@ import PropTypes from "prop-types";
 import React from "react";
 import Header from "./header";
 import Footer from "./Footer";
+import CookieConsent from "react-cookie-consent";
 
 function Layout({ children }) {
   return (
     <div className="flex flex-col min-h-screen font-raleway text-gray-900  ">
       <Header />
 
-      <main className="flex-1 w-full  mx-auto  pt-24 -mt-24">{children}</main>
+      <main className="flex-1 w-full  mx-auto  pt-24 -mt-24 snap-mandatory snap-start snap-y">
+        {children}
+      </main>
 
       <section
         id="contact-us"
@@ -104,7 +107,21 @@ function Layout({ children }) {
           </form>
         </div>
       </section>
-
+      <CookieConsent
+        enableDeclineButton
+        location="bottom"
+        disableStyles={true}
+        buttonText="Accept"
+        className="bg-black  "
+        buttonClasses="bg-green-500 p-4 font-bold text-white"
+        declineButtonClasses="bg-red-500 mr-4 p-4 font-bold text-white"
+        containerClasses="fixed py-4 px-12 z-10 bg-white w-full flex justify-between items-center bold"
+        contentClasses="text-lg"
+        declineButtonText="Decline"
+        cookieName="gatsby-gdpr-google-analytics"
+      >
+        This site uses cookies ...
+      </CookieConsent>
       <Footer></Footer>
     </div>
   );
