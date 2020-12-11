@@ -31,6 +31,21 @@ function Layout({ children }) {
             equally enthuastic to discuss our concept with interested parties.
             If this sounds like you get in touch.
           </p>
+          <div className='py-6 flex flex-col space-y-1'>
+            <p className='font-bold'>Contact us directly at:</p>
+            <span>Email:</span>
+            <a
+              className='underline text-grc-green'
+              href='mailto:eb@globalrivercenter.com'
+            >
+              eb@globalrivercenter.com
+            </a>
+
+            <span>Phone: </span>
+            <a className='underline text-grc-green' href='tel:004528923485'>
+              0045 28 92 34 85
+            </a>
+          </div>
         </div>
         <div className='py-12 md:py-0 md:w-1/2'>
           <form className='w-full max-w-lg'>

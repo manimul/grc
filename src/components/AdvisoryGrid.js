@@ -27,7 +27,7 @@ function AdvisorGrid() {
 
           <div className='[card_content]'>
             <header>
-              <h2 className='text-lg font-bold'>Stine Birke</h2>
+              <h2 className='text-lg font-bold'>Stine Birk</h2>
             </header>
             <p>
               Institutional investor and Public-Private Partnership (PPP) expert

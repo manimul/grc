@@ -71,8 +71,11 @@ function KhadijaJorgen() {
         title='About'
       />
       <BackgroundSection className=' text-white text-center'></BackgroundSection>
-      <section id='news-intro' className='p-24 max-w-4xl m-auto'>
-        <p className='pb-12'>
+      <section
+        id='news-intro'
+        className='p-12 md:p-24 md:max-w-4xl m-auto space-y-4'
+      >
+        <p className=''>
           Here we can see our brand new recruit, Khadija Wade, a Sengalese
           native residing in Copenhagen, being interviewed by our trusted
           advisor & renowned retail legend Jørgen Skov. We really appreciate the
@@ -85,7 +88,7 @@ function KhadijaJorgen() {
           and his sense of curiosity means he is always asking questions and
           keenly exploring the pulse of the new.
         </p>
-        <p className='pb-12'>
+        <p className=''>
           Khadija was the perfect sparring partner, offering Jørgen a glimpse
           into emerging Sengalese cultural trends. Insights that she will soon
           be developing when she embarks on the Sengalese research mission for

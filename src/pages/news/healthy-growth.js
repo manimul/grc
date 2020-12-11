@@ -73,14 +73,17 @@ function HealthyGrowth() {
         title='About'
       />
       <BackgroundSection className=' text-white text-center'></BackgroundSection>
-      <section id='news-intro' className='p-24 max-w-4xl m-auto'>
-        <p className='pb-12'>
+      <section
+        id='news-intro'
+        className='p-12 md:p-24 md:max-w-4xl m-auto space-y-4'
+      >
+        <p>
           Last week we announced a new member to the GRC Taskforce (read more on
           the Taskforce below👇) on our social media channels. If you missed
           this post now is a good time to follow us and keep up with everything
           we share!
         </p>
-        <p className='pb-12'>
+        <p>
           The new addition we proudly announced is Dr. Lars Chr. Kyburg. Dr
           Kyburg is a Health Care Systems Development and Strengthening
           Specialist with more than 25 years experience in advising health
@@ -96,7 +99,7 @@ function HealthyGrowth() {
           className='min-h-half_screen w-full object-cover object-center pb-12'
           filename='lars_kyburg.png'
         ></Image>
-        <p className='p-12'>
+        <p>
           His role on our Taskforce is to help shape and define the health
           services that play an integral role in the River Center concept. Each
           River Center we build will offer health-wise educational and training
@@ -104,7 +107,7 @@ function HealthyGrowth() {
           facilities and a health clinic, supporting good health practices and
           wellbeing of all our users.
         </p>
-        <p className='pb-12'>
+        <p>
           With the expert guidance and collaboration of Dr Kyburg, we have an
           even greater confidence that we can develop and offer truly impactful
           and life enhancing experiences to our users. We hope you will join us
