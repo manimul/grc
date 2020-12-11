@@ -1,28 +1,28 @@
-import React from "react";
+import React from 'react';
 import {
   Accordion,
   AccordionItem,
   AccordionItemHeading,
   AccordionItemButton,
   AccordionItemPanel,
-} from "react-accessible-accordion";
+} from 'react-accessible-accordion';
 
 function FAQ() {
   return (
-    <section id="faq" className="py-24  px-4">
-      <div className="text-center max-w-4xl m-auto mb-4">
-        <h2 className="block text-xl  mb-1 text-black text-opacity-50 uppercase">
+    <section id='faq' className='py-24  px-4'>
+      <div className='text-center max-w-4xl m-auto mb-4'>
+        <h2 className='block text-xl  mb-1 text-black text-opacity-50 uppercase'>
           FAQ
         </h2>
-        <p className="inline-block text-xl md:text-4xl  font-bold mb-4">
+        <p className='inline-block text-xl md:text-2xl lg:text-4xl  font-bold mb-4'>
           We get asked a lot of questions about Global River Center. Here are
           some of the most common questions to help you understand our story.
         </p>
       </div>
-      <div className="max-w-3xl m-auto mb-4">
-        <Accordion allowZeroExpanded className="">
-          <AccordionItem className="border-gray-200">
-            <AccordionItemHeading className=" font-bold text-lg md:text-xl">
+      <div className='max-w-3xl m-auto mb-4'>
+        <Accordion allowZeroExpanded className=''>
+          <AccordionItem className='border-gray-200'>
+            <AccordionItemHeading className=' font-bold text-lg md:text-xl'>
               <AccordionItemButton>Is GRC an NGO?</AccordionItemButton>
             </AccordionItemHeading>
             <AccordionItemPanel>
@@ -36,8 +36,8 @@ function FAQ() {
             </AccordionItemPanel>
           </AccordionItem>
 
-          <AccordionItem className="border-gray-200">
-            <AccordionItemHeading className=" font-bold text-lg md:text-xl">
+          <AccordionItem className='border-gray-200'>
+            <AccordionItemHeading className=' font-bold text-lg md:text-xl'>
               <AccordionItemButton>
                 Is this a community center, a mall, a college or what?
               </AccordionItemButton>
@@ -49,24 +49,30 @@ function FAQ() {
                 skills development and community services. Our Trading Hub is an
                 environment designed to support local retailers and traders, as
                 well as providing access to national and international products.
-                Learn more about this here... Our Entertainment Hub is a space
-                tailored for sports, arts and cultural activities. Suitable for
-                social gatherings, festivals, cinema, concerts, media creation,
-                and broadcasting. Our Education Hub provides skills learning
-                facilities and programs. We provide access to free global
-                learning platforms. Programs include digital and financial
-                literacy, adult literacy, sustainable business development, and
-                agricultural practices. Our community hub provides an
-                environment for local community gatherings.chief consultations
-                and traditional functions and events, public meetings, public
-                services like health and extension services, and faith-based
-                services.
+                Learn more about this here...{' '}
+              </p>
+              <p>
+                Our Entertainment Hub is a space tailored for sports, arts and
+                cultural activities. Suitable for social gatherings, festivals,
+                cinema, concerts, media creation, and broadcasting.{' '}
+              </p>
+              <p>
+                Our Education Hub provides skills learning facilities and
+                programs. We provide access to free global learning platforms.
+                Programs include digital and financial literacy, adult literacy,
+                sustainable business development, and agricultural practices.
+              </p>
+              <p>
+                Our community hub provides an environment for local community
+                gatherings.chief consultations and traditional functions and
+                events, public meetings, public services like health and
+                extension services, and faith-based services.
               </p>
             </AccordionItemPanel>
           </AccordionItem>
 
-          <AccordionItem className="border-gray-200">
-            <AccordionItemHeading className=" font-bold text-lg md:text-xl">
+          <AccordionItem className='border-gray-200'>
+            <AccordionItemHeading className=' font-bold text-lg md:text-xl'>
               <AccordionItemButton>
                 Who are the main beneficiaries of your concept?
               </AccordionItemButton>
@@ -83,8 +89,8 @@ function FAQ() {
             </AccordionItemPanel>
           </AccordionItem>
 
-          <AccordionItem className="border-gray-200">
-            <AccordionItemHeading className=" font-bold text-lg md:text-xl">
+          <AccordionItem className='border-gray-200'>
+            <AccordionItemHeading className=' font-bold text-lg md:text-xl'>
               <AccordionItemButton>
                 What&apos;s unique about this concept?
               </AccordionItemButton>
@@ -103,8 +109,8 @@ function FAQ() {
             </AccordionItemPanel>
           </AccordionItem>
 
-          <AccordionItem className="border-gray-200">
-            <AccordionItemHeading className=" font-bold text-lg md:text-xl">
+          <AccordionItem className='border-gray-200'>
+            <AccordionItemHeading className=' font-bold text-lg md:text-xl'>
               <AccordionItemButton>
                 What will success look like?
               </AccordionItemButton>
@@ -124,8 +130,8 @@ function FAQ() {
             </AccordionItemPanel>
           </AccordionItem>
 
-          <AccordionItem className="border-gray-200">
-            <AccordionItemHeading className=" font-bold text-lg md:text-xl">
+          <AccordionItem className='border-gray-200'>
+            <AccordionItemHeading className=' font-bold text-lg md:text-xl'>
               <AccordionItemButton>
                 I want to help or contribute, how can I?
               </AccordionItemButton>
@@ -145,8 +151,8 @@ function FAQ() {
             </AccordionItemPanel>
           </AccordionItem>
 
-          <AccordionItem className="border-gray-200">
-            <AccordionItemHeading className=" font-bold text-lg md:text-xl">
+          <AccordionItem className='border-gray-200'>
+            <AccordionItemHeading className=' font-bold text-lg md:text-xl'>
               <AccordionItemButton>
                 Are you looking for volunteers or interns?
               </AccordionItemButton>
@@ -159,8 +165,8 @@ function FAQ() {
             </AccordionItemPanel>
           </AccordionItem>
 
-          <AccordionItem className="border-gray-200">
-            <AccordionItemHeading className=" font-bold text-lg md:text-xl">
+          <AccordionItem className='border-gray-200'>
+            <AccordionItemHeading className=' font-bold text-lg md:text-xl'>
               <AccordionItemButton>
                 Where and when do you expect to launch?
               </AccordionItemButton>
@@ -175,8 +181,8 @@ function FAQ() {
             </AccordionItemPanel>
           </AccordionItem>
 
-          <AccordionItem className="border-gray-200">
-            <AccordionItemHeading className=" font-bold text-lg md:text-xl">
+          <AccordionItem className='border-gray-200'>
+            <AccordionItemHeading className=' font-bold text-lg md:text-xl'>
               <AccordionItemButton>
                 Do you contribute towards the SDG2030 goals?
               </AccordionItemButton>

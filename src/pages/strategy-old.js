@@ -6,7 +6,7 @@ import Image from '../components/Image';
 import { Link } from 'gatsby';
 import CtaTaskforce from '../components/CtaTaskforce';
 
-function StrategyPage() {
+function StrategyPageOld() {
   return (
     <Layout>
       <SEO
@@ -19,19 +19,24 @@ function StrategyPage() {
         linkTo='/strategy#strategy-intro'
       ></HeroSmall>
 
-      <section className='[vision] flex flex-wrap items-center md:min-h-1/2 lg:h-screen  snap-start '>
+      <section
+        id='strategy-intro'
+        className='[vision] md:grid grid-cols-2 h-auto '
+      >
         <Image
           filename='concept-needs.jpeg'
-          className='w-full md:w-1/2 md:h-screen object-cover object-center'
+          className='h-auto w-full object-cover object-center'
         />
-        <div className='md:w-1/2 p-12 md:p-24 flex flex-col  '>
+
+        <div className='p-12 md:p-24 max-w-2xl'>
           <h2 className='inline-block text-xl  mb-1 text-black text-opacity-50 uppercase'>
             Meeting the needs of the market.
           </h2>
-          <p className='inline-block text-xl md:text-2xl lg:text-4xl font-bold mb-4 leading-tight'>
+          <p className='inline-block text-xl md:text-4xl font-bold mb-4 leading-tight'>
             We supply a much needed concept to a market with a capacity and
-            willingness to spend.{' '}
+            willingness to spend.
           </p>
+
           <p className='mb-4'>
             Ensuring we can provide valuable technology and bring skills to a
             market longing for development and innovation, and support
@@ -41,16 +46,40 @@ function StrategyPage() {
         </div>
       </section>
 
-      <section className='[vision] flex flex-wrap md:flex-row-reverse items-center md:min-h-1/2 lg:h-screen snap-start  '>
-        <Image
-          filename='concept-strategic.jpeg'
-          className='w-full md:w-1/2 md:h-screen object-cover object-center'
-        />
-        <div className='md:w-1/2 p-12 md:p-24 flex flex-col  '>
+      <section className='[vision] md:grid grid-cols-2 md:h-auto  lg:h-screen/2/3 '>
+        <div className='p-12 md:p-24 max-w-2xl'>
           <h2 className='inline-block text-xl  mb-1 text-black text-opacity-50 uppercase'>
             Strategic Partnerships
           </h2>
-          <p className='inline-block text-xl md:text-2xl lg:text-4xl font-bold mb-4 leading-tight'>
+          <p className='inline-block text-xl md:text-4xl font-bold mb-4 leading-tight'>
+            We make strategic partnerships with industry leaders
+          </p>
+          <p className='mb-4'>
+            Ensuring we can provide valuable technology and bring skills to a
+            market longing for development and innovation, and support
+            future-secured income generation and economic development for our
+            users and their communities.
+          </p>
+          <Link
+            to='/partners'
+            className=' underline font-bold block m-auto text-green-700'
+          >
+            Learn More About Our Partners
+          </Link>
+        </div>
+
+        <Image
+          filename='concept-strategic.jpeg'
+          className='h-auto w-full object-cover object-center'
+        />
+      </section>
+
+      <section className='[vision] flex items-center md:h-screen  '>
+        <div className='w-1/2 p-12 md:p-24 flex flex-col  '>
+          <h2 className='inline-block text-xl  mb-1 text-black text-opacity-50 uppercase'>
+            Strategic Partnerships
+          </h2>
+          <p className='inline-block text-xl md:text-4xl font-bold mb-4 leading-tight'>
             We make strategic partnerships with industry leaders
           </p>
           <p className='mb-4'>
@@ -63,6 +92,11 @@ function StrategyPage() {
             Learn More About Our Partners
           </Link>
         </div>
+
+        <Image
+          filename='concept-strategic.jpeg'
+          className=' w-1/2 max-h-screen object-cover object-center'
+        />
       </section>
 
       <section className='[cta_taskforce] p-12 md:p-24 cta_blue_wiggles  text-white text-center'>
@@ -80,17 +114,17 @@ function StrategyPage() {
         </div>
       </section>
 
-      <section className='[vision] flex flex-wrap md:flex-row items-center md:min-h-1/2 lg:h-screen  snap-start '>
+      <section className='[vision] md:grid grid-cols-2 md:h-screen/2/3 '>
         <Image
           filename='concept-team.jpeg'
-          className='w-full md:w-1/2 md:h-screen md:object-cover object-center'
+          className='h-auto w-full object-cover object-center'
         />
 
-        <div className='md:w-1/2 p-12 md:p-24 flex flex-col '>
+        <div className='p-12 md:p-24 md:max-w-2xl'>
           <h2 className='inline-block text-xl  mb-1 text-black text-opacity-50 uppercase'>
             Team of experts
           </h2>
-          <p className='inline-block text-xl md:text-2xl lg:text-4xl font-bold mb-4 leading-tight'>
+          <p className='inline-block text-xl md:text-4xl font-bold mb-4 leading-tight'>
             We are led by an experienced, professional, multi-disciplinary
             managment team.
           </p>
@@ -99,7 +133,10 @@ function StrategyPage() {
             This ensures that we plan, operate and develop our concept with
             confidence and accuracy.
           </p>
-          <a href='#' className=' underline font-bold block  text-green-700'>
+          <a
+            href='#'
+            className=' underline font-bold block m-auto text-green-700'
+          >
             Learn more about our concept{' '}
           </a>
         </div>
@@ -110,4 +147,4 @@ function StrategyPage() {
   );
 }
 
-export default StrategyPage;
+export default StrategyPageOld;

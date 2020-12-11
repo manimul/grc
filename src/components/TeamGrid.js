@@ -10,7 +10,7 @@ function TeamGrid(props) {
         <h2 className='block text-lg text-black text-opacity-50 uppercase'>
           Our Team
         </h2>
-        <p className='inline-block text-xl md:text-4xl  font-bold mb-4'>
+        <p className='inline-block text-xl md:text-2xl lg:text-4xl  font-bold mb-4'>
           Equal parts passion and expertise.
         </p>
       </div>

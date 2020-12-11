@@ -98,7 +98,7 @@ function IndexPage() {
           <h2 className='inline-block text-xl  mb-1 text-black text-opacity-50 uppercase'>
             Our Vision
           </h2>
-          <p className='inline-block text-xl md:text-4xl font-bold mb-4 leading-tight'>
+          <p className='inline-block text-xl md:text-2xl lg:text-4xl font-bold mb-4 leading-tight'>
             Enhancing the quality of life for citizens in non-urban sub-Saharan
             Africa by building 200 River Centers
           </p>
@@ -132,14 +132,14 @@ function IndexPage() {
 
       <section
         id='impact'
-        className='[impact] px-6 py-12 md:px-0 md:py-24 text-white bg-grc-navy '
+        className='[impact] px-6 py-12  md:py-24 text-white bg-grc-navy '
       >
-        <div className='[impact] max-w-6xl m-auto md:grid grid-cols-5 grid-flow-col  '>
+        <div className='[impact] max-w-4xl m-auto md:grid grid-cols-5 grid-flow-col  '>
           <div className='  col-span-3  md:max-w-2xl'>
             <h2 className='inline-block text-lg    text-opacity-50 uppercase'>
               Our Impact
             </h2>
-            <p className='inline-block text-xl md:text-4xl font-bold mb-4 md:pr-16'>
+            <p className='inline-block text-xl md:text-2xl lg:text-4xl font-bold mb-4 md:pr-16'>
               We directly contribute to 8 of the UNs Sustainable Development
               Goals{' '}
             </p>

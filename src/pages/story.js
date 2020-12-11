@@ -51,7 +51,7 @@ function StoryPage() {
           <h2 className='inline-block text-xl  mb-1 text-black text-opacity-50 uppercase'>
             Why?
           </h2>
-          <p className='inline-block text-xl md:text-4xl font-bold mb-4 leading-tight'>
+          <p className='inline-block text-xl md:text-2xl lg:text-4xl font-bold mb-4 leading-tight'>
             Africa is urbanising at an unsustainable pace
           </p>
 
@@ -74,7 +74,7 @@ function StoryPage() {
 
       <section className='[cta_] p-12 md:p-24 cta_green_wiggles text-white text-center '>
         <div className='md:max-w-4xl m-auto'>
-          <p className='inline-block text-xl md:text-4xl font-bold mb-4'>
+          <p className='inline-block text-xl md:text-2xl lg:text-4xl font-bold mb-4'>
             We wanted to do something to offset this migration. We developed a
             vision
           </p>
@@ -96,7 +96,7 @@ function StoryPage() {
           <h2 className='inline-block text-xl  mb-1 text-black text-opacity-50 uppercase'>
             Our Vision
           </h2>
-          <p className='inline-block text-xl md:text-4xl font-bold mb-4 leading-tight'>
+          <p className='inline-block text-xl md:text-2xl lg:text-4xl font-bold mb-4 leading-tight'>
             We believe we can improve the the quality of life for citizens in
             non-urban sub-Saharan Africa by building 200 Global River Centers
           </p>

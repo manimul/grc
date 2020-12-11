@@ -125,20 +125,20 @@ function SdgGrid() {
   ];
   const [textHeading, setTextHeading] = useState('Our Impact');
   const [textBody, setTextBody] = useState(
-    'Press one of the SDG images to see what our contribution is'
+    'Click on one of the SDG images to see what our contribution is'
   );
   const [sdgName, setSdgName] = useState('');
 
   const listItems = data.map((data, index) => (
     <li
-      className='w-1/5 md:w-1/6 flex transition duration-200 ease-in-out transform '
+      className='w-1/5 md:w-1/6 flex transition duration-200  ease-in-out transform '
       key={data.name}
     >
       <button
         className={
           data.name == textHeading
             ? 'active w-full opacity-100 '
-            : 'w-full opacity-75 hover:opacity-100 transition duration-500 ease-in-out'
+            : 'w-full p-1  transition duration-500 ease-in-out'
         }
         onClick={() => updateText(data.text, data.name, index + 1)}
         value={data.name}
@@ -162,18 +162,20 @@ function SdgGrid() {
           <h2 className='block text-lg text-black text-opacity-50 uppercase'>
             Our SDG Impact
           </h2>
-          <p className='inline-block text-xl md:text-4xl max-w-4xl font-bold '>
+          <p className='inline-block text-xl md:text-2xl lg:text-4xl max-w-4xl font-bold '>
             How our work intersects with the Sustainable Development Goals.
           </p>
         </div>
         <div className=' md:flex flex-row-reverse  md:flex-row w-full md:max-w-full p-4 md:px-0 md:py-12'>
-          <ul className='flex flex-wrap flex-row w-full md:w-1/2 h-auto content-start'>
+          <ul className='flex flex-wrap flex-row w-full md:w-3/5 h-auto content-start'>
             {listItems}
           </ul>
-          <div className='md:px-16 w-full md:w-2/5'>
+          <div className='md:pl-8 w-full md:w-2/5'>
             <h2 className='font-bold text-grc-blue md:text-2xl'>{sdgName}</h2>
 
-            <h2 className='font-bold md:text-3xl'>{textHeading}</h2>
+            <h2 className='font-bold text-xl md:text-xl lg:text-3xl'>
+              {textHeading}
+            </h2>
             <p>{textBody}</p>
           </div>
         </div>
