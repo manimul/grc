@@ -1,5 +1,5 @@
-const resolveConfig = require("tailwindcss/resolveConfig");
-const tailwindConfig = require("./tailwind.config.js");
+const resolveConfig = require('tailwindcss/resolveConfig');
+const tailwindConfig = require('./tailwind.config.js');
 const path = require(`path`);
 const fullConfig = resolveConfig(tailwindConfig);
 
@@ -30,17 +30,17 @@ module.exports = {
       resolve: `gatsby-plugin-gdpr-cookies`,
       options: {
         googleAnalytics: {
-          trackingId: "YOUR_GOOGLE_ANALYTICS_TRACKING_ID",
+          trackingId: 'YOUR_GOOGLE_ANALYTICS_TRACKING_ID',
           // Setting this parameter is optional
           anonymize: true,
         },
         // Defines the environments where the tracking should be available  - default is ["production"]
-        environments: ["production", "development"],
+        environments: ['production', 'development'],
       },
     },
 
     {
-      resolve: "gatsby-plugin-react-svg",
+      resolve: 'gatsby-plugin-react-svg',
       options: {
         rule: {
           include: /images\/.*\.svg/,
@@ -49,7 +49,7 @@ module.exports = {
     },
 
     {
-      resolve: "gatsby-plugin-anchor-links",
+      resolve: 'gatsby-plugin-anchor-links',
       options: {
         offset: -100,
       },
@@ -68,16 +68,16 @@ module.exports = {
         short_name: `starter`,
         start_url: `/`,
         background_color: fullConfig.theme.colors.white,
-        theme_color: fullConfig.theme.colors.teal["400"],
+        theme_color: fullConfig.theme.colors.teal['400'],
         display: `minimal-ui`,
-        icon: `src/images/tailwind-icon.png`,
+        icon: `src/images/grc-icon.png`,
       },
     },
     {
-      resolve: "gatsby-background-image-es5",
+      resolve: 'gatsby-background-image-es5',
       options: {
         // add your own characters to escape, replacing the default ':/'
-        specialChars: "/:",
+        specialChars: '/:',
       },
     },
     {

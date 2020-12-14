@@ -1,20 +1,20 @@
-import React from "react";
+import React from 'react';
 
-import Layout from "../components/layout";
-import SEO from "../components/seo";
-import HeroSmall from "../components/HeroSmall";
+import Layout from '../components/layout';
+import SEO from '../components/seo';
+import HeroSmall from '../components/HeroSmall';
 
 function ContactPage() {
   return (
     <Layout>
       <SEO
-        keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
-        title="About"
+        keywords={[`global river center`, `danish`, `africa`, `development`]}
+        title='Contact Global River Center'
       />
       <HeroSmall
-        title="Contact Us"
-        heading="We are always looking to meet likeminded and ambitious people. "
-        linkTo="/contact#contact-us"
+        title='Contact Us'
+        heading='We are always looking to meet likeminded and ambitious people. '
+        linkTo='/contact#contact-us'
       ></HeroSmall>
     </Layout>
   );

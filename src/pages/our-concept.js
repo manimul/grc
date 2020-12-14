@@ -9,8 +9,17 @@ function ConceptPage() {
   return (
     <Layout>
       <SEO
-        keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
-        title='About'
+        keywords={[
+          `global river center`,
+          `our concept`,
+          `danish`,
+          `africa`,
+          `development`,
+          `building better futures`,
+          `sustainability`,
+          `sdg`,
+        ]}
+        title='Our Concept'
       />
       <HeroSmall
         title='Our Concept'

@@ -1,40 +1,49 @@
-import React from "react";
+import React from 'react';
 
-import Layout from "../components/layout";
-import SEO from "../components/seo";
-import HeroSmall from "../components/HeroSmall";
-import Image from "../components/Image";
+import Layout from '../components/layout';
+import SEO from '../components/seo';
+import HeroSmall from '../components/HeroSmall';
+import Image from '../components/Image';
 
 function PartnersPage() {
   return (
     <Layout>
       <SEO
-        keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
-        title="About"
+        keywords={[
+          `global river center`,
+          `partners`,
+          `danish`,
+          `africa`,
+          `development`,
+          `building better futures`,
+          `sustainability`,
+          `sdg`,
+        ]}
+        title='Our Partners'
       />
       <HeroSmall
-        title="Our Partners"
-        heading="Passionate experts. Meet the people behind Global River Center. "
-        linkTo="/team#intro"
+        title='Our Partners'
+        heading='Passionate experts. Meet the people behind Global River Center. '
+        linkTo='/team#intro'
         singleNav={false}
       ></HeroSmall>
-      <section id="partners-intro" className="[team] p-24">
-        <div className="text-center  px-24 m-auto mb-4">
-          <h2 className="block text-lg text-black text-opacity-50 uppercase">
+      <section id='partners-intro' className='[team] p-24'>
+        <div className='text-center  px-24 m-auto mb-4'>
+          <h2 className='block text-lg text-black text-opacity-50 uppercase'>
             Our Partners
           </h2>
-          <p className="inline-block text-4xl  font-bold mb-4">
+          <p className='inline-block text-4xl  font-bold mb-4'>
             Our strength lies in the contribution of our partners.
           </p>
         </div>
-        <div className="max-w-6xl grid grid-cols-3 gap-12  m-auto justify-center ">
-          <div className="col-span-1 self-center ">
-            <Image className="bg-grc-navy" filename="partners/dge.png" />
+        <div className='max-w-6xl grid grid-cols-3 gap-12  m-auto justify-center '>
+          <div className='col-span-1 self-center '>
+            <Image className='bg-grc-navy' filename='partners/dge.png' />
           </div>
 
-          <div className="mt-6 pr-32 col-span-2 ">
-            <p className="block text-2xl font-bold mb-1 leading-tight">DGE</p>
-            <p className="mb-4">
+          <div className='mt-6 pr-32 col-span-2 '>
+            <p className='block text-2xl font-bold mb-1 leading-tight'>DGE</p>
+            <p className='mb-4'>
               DGE is an environment and engineering company, offering innovative
               and sustainable solutions to develop societies and create growth.
               DGE is advising on projects, identifying the environmental needs
@@ -47,18 +56,18 @@ function PartnersPage() {
               demands.
             </p>
             <a
-              href="https://www.dge.se/"
-              target="_blank"
-              rel="noreferrer"
-              className=" underline font-bold block m-auto text-green-700"
+              href='https://www.dge.se/'
+              target='_blank'
+              rel='noreferrer'
+              className=' underline font-bold block m-auto text-green-700'
             >
               Website
             </a>
           </div>
 
-          <div className="mt-6 pl-32 col-span-2 ">
-            <p className="block text-2xl font-bold mb-1 leading-tight">Nopef</p>
-            <p className="mb-4">
+          <div className='mt-6 pl-32 col-span-2 '>
+            <p className='block text-2xl font-bold mb-1 leading-tight'>Nopef</p>
+            <p className='mb-4'>
               The Nordic Project Fund (Nopef) if a fund is issued by the Nordic
               Environment Finance Corporation (NEFCO). The objective of Nopef is
               to facilitate the scale-up of Nordic green solutions on global
@@ -70,25 +79,25 @@ function PartnersPage() {
               therefore granted us support for our feasibility study.
             </p>
             <a
-              href="https://nopef.com/"
-              target="_blank"
-              rel="noreferrer"
-              className=" underline font-bold block m-auto text-green-700"
+              href='https://nopef.com/'
+              target='_blank'
+              rel='noreferrer'
+              className=' underline font-bold block m-auto text-green-700'
             >
               Website
             </a>
           </div>
 
-          <div className="col-span-1 self-center">
-            <Image className="bg-grc-navy" filename="partners/nopef.png" />
+          <div className='col-span-1 self-center'>
+            <Image className='bg-grc-navy' filename='partners/nopef.png' />
           </div>
 
-          <div className="col-span-1  self-center">
-            <Image className="bg-grc-navy" filename="partners/sweco.png" />
+          <div className='col-span-1  self-center'>
+            <Image className='bg-grc-navy' filename='partners/sweco.png' />
           </div>
-          <div className="mt-6 pr-32 col-span-2 ">
-            <p className="block text-2xl font-bold mb-1 leading-tight">Sweco</p>
-            <p className="mb-4">
+          <div className='mt-6 pr-32 col-span-2 '>
+            <p className='block text-2xl font-bold mb-1 leading-tight'>Sweco</p>
+            <p className='mb-4'>
               Sweco is one of Europe’s leading engineering and architecture firm
               in infrastructure, water, buildings and urban development. With
               14,500 employees in 15 countries, Sweco offers highly specialized
@@ -102,18 +111,18 @@ function PartnersPage() {
               excited to be working with Sweco.
             </p>
             <a
-              href="https://www.sweco.se/"
-              target="_blank"
-              rel="noreferrer"
-              className=" underline font-bold block m-auto text-green-700"
+              href='https://www.sweco.se/'
+              target='_blank'
+              rel='noreferrer'
+              className=' underline font-bold block m-auto text-green-700'
             >
               Website
             </a>
           </div>
 
-          <div className="mt-6 pl-32 col-span-2 ">
-            <p className="block text-2xl font-bold mb-1 leading-tight">NIRAS</p>
-            <p className="mb-4">
+          <div className='mt-6 pl-32 col-span-2 '>
+            <p className='block text-2xl font-bold mb-1 leading-tight'>NIRAS</p>
+            <p className='mb-4'>
               NIRAS is an international, multidisciplinary engineering
               consultancy company with Nordic roots and values creating
               sustainable development solutions across the globe. NIRAS has over
@@ -126,17 +135,17 @@ function PartnersPage() {
               building our centers.
             </p>
             <a
-              href="https://www.niras.com/"
-              target="_blank"
-              rel="noreferrer"
-              className=" underline font-bold block m-auto text-green-700"
+              href='https://www.niras.com/'
+              target='_blank'
+              rel='noreferrer'
+              className=' underline font-bold block m-auto text-green-700'
             >
               Website
             </a>
           </div>
 
-          <div className="col-span-1 self-center">
-            <Image className="bg-grc-navy" filename="partners/niras.png" />
+          <div className='col-span-1 self-center'>
+            <Image className='bg-grc-navy' filename='partners/niras.png' />
           </div>
         </div>
       </section>

@@ -10,8 +10,17 @@ function StrategyPage() {
   return (
     <Layout>
       <SEO
-        keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
-        title='About'
+        keywords={[
+          `global river center`,
+          `strategy`,
+          `danish`,
+          `africa`,
+          `development`,
+          `building better futures`,
+          `sustainability`,
+          `sdg`,
+        ]}
+        title='Our Strategy'
       />
       <HeroSmall
         title='Our Strategy'

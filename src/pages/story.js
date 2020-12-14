@@ -15,8 +15,17 @@ function StoryPage() {
   return (
     <Layout>
       <SEO
-        keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
-        title='About'
+        keywords={[
+          `global river center`,
+          `our story`,
+          `danish`,
+          `africa`,
+          `development`,
+          `building better futures`,
+          `sustainability`,
+          `sdg`,
+        ]}
+        title='Our Story'
       />
 
       <section className='[story_hero] p-12 md:p-24 cta_blue_shapes text-white text-center  '>

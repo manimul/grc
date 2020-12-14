@@ -85,8 +85,8 @@ function IndexPage() {
   return (
     <Layout>
       <SEO
-        keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
-        title='Home'
+        keywords={[`global river center`, `danish`, `africa`, `development`]}
+        title='Building Better Futures for Young People in Non-Urban Africa'
       />
 
       <BackgroundSection className='hero  min-h-screen  text-white  '></BackgroundSection>
