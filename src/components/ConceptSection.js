@@ -120,7 +120,7 @@ const ConceptSection = (props) => {
                 Empowering trade and commerce
               </h3>
               <p className='inline-block text-xl md:text-2xl lg:text-4xl font-bold mb-4 leading-tight'>
-                River Trading Hub is an environment designed to support local
+                River Trading is an environment designed to support local
                 retailers and traders.
               </p>
 
@@ -136,7 +136,7 @@ const ConceptSection = (props) => {
             >
               <div className='bg-grc-blue inline-block p-6   text-white '>
                 <h2 className='font-bold text-lg md:text-3xl md:pr-24'>
-                  River<br></br> Trading<br></br> Hub
+                  River<br></br> Trading
                 </h2>
               </div>
             </BackgroundImage>
@@ -154,7 +154,7 @@ const ConceptSection = (props) => {
             >
               <div className='bg-grc-red  inline-block p-6   text-white '>
                 <h2 className='font-bold text-lg md:text-3xl md:pr-24'>
-                  River<br></br> Entertainment<br></br> Hub
+                  River<br></br> Entertainment
                 </h2>
               </div>
             </BackgroundImage>
@@ -164,7 +164,7 @@ const ConceptSection = (props) => {
                 Enabling leisure and fun
               </h3>
               <p className='inline-block text-xl md:text-2xl lg:text-4xl font-bold mb-4 leading-tight'>
-                River Entertainment Hub is a space tailored for sports, arts and
+                River Entertainment is a space tailored for sports, arts and
                 cultural activities.
               </p>
 
@@ -184,7 +184,7 @@ const ConceptSection = (props) => {
                 Supporting the local community
               </h3>
               <p className='inline-block text-xl md:text-2xl lg:text-4xl font-bold mb-4 leading-tight'>
-                River Community Hub provides an enviroment for local community
+                River Community provides an enviroment for local community
                 gatherings.
               </p>
 
@@ -202,7 +202,7 @@ const ConceptSection = (props) => {
             >
               <div className='bg-grc-green  inline-block p-6   text-white '>
                 <h2 className='font-bold text-lg md:text-3xl md:pr-24'>
-                  River<br></br> Community<br></br> Hub
+                  River<br></br> Community
                 </h2>
               </div>
             </BackgroundImage>
@@ -220,7 +220,7 @@ const ConceptSection = (props) => {
             >
               <div className='bg-grc-yellow  inline-block p-6   text-white '>
                 <h2 className='font-bold text-lg md:text-3xl md:pr-24'>
-                  River<br></br> Learning<br></br> Hub
+                  River<br></br> Learning
                 </h2>
               </div>
             </BackgroundImage>
@@ -229,7 +229,7 @@ const ConceptSection = (props) => {
                 Strenghtening skill sets
               </h3>
               <p className='inline-block text-xl md:text-2xl lg:text-4xl font-bold mb-4 leading-tight'>
-                River Learning Hub is the name given to the skills learning
+                River Learning is the name given to the skills learning
                 facilities and programs that take place in the center.
               </p>
 
@@ -251,16 +251,16 @@ const ConceptSection = (props) => {
               </h3>
               <p className='inline-block text-xl md:text-2xl lg:text-4xl font-bold mb-4 leading-tight'>
                 The promotion of health is a central element in the River
-                Centers and is supported within each hub.
+                Centers and is supported throughout.
               </p>
 
               <p className='mb-4'>
-                The Trading hub will include a pharmacy - The Learning Hub will
-                inform and train in preventive measures to stay healthy – The
-                Entertainment hub will host sports and health related events –
-                The Community Hub will provide medical services but also have
-                other health care practitioners that are lacking in the
-                different areas and inviting specialists.
+                River Trading will include a pharmacy - River Learning will
+                inform and train in preventive measures to stay healthy – River
+                Entertainment will host sports and health related events – River
+                Community will provide medical services but also have other
+                health care practitioners that are lacking in the different
+                areas and inviting specialists.
               </p>
             </div>
             <BackgroundImage
@@ -350,7 +350,7 @@ const ConceptSection = (props) => {
                 >
                   <div className='bg-grc-blue  inline-block p-6 w-3/4 md:w-3/4 lg:w-1/2'>
                     <h3 className='font-bold text-xl'>
-                      River<br></br> Trading <br></br> Hub
+                      River<br></br> Trading
                     </h3>
                     <p className='text-sm my-4'>
                       An environment designed to support local trade.
@@ -372,7 +372,7 @@ const ConceptSection = (props) => {
                 >
                   <div className='bg-grc-green inline-block p-6 w-3/4 md:w-3/4 lg:w-1/2'>
                     <h3 className='font-bold text-xl'>
-                      River<br></br> Community <br></br>Hub
+                      River<br></br> Community
                     </h3>
                     <p className='text-sm my-4'>
                       An enviroment for local community gatherings.
@@ -394,7 +394,7 @@ const ConceptSection = (props) => {
                 >
                   <div className='bg-grc-red  inline-block p-6 w-3/4 md:w-3/4 lg:w-1/2'>
                     <h3 className='font-bold text-xl'>
-                      River <br></br>Entertainment<br></br> Hub
+                      River <br></br>Entertainment
                     </h3>
                     <p className='text-sm my-4'>
                       A space tailored for sports, arts and cultural activities.
@@ -416,7 +416,7 @@ const ConceptSection = (props) => {
                 >
                   <div className='bg-grc-yellow  inline-block p-6 w-3/4 md:w-3/4 lg:w-1/2'>
                     <h3 className='font-bold  text-xl'>
-                      River<br></br> Learning<br></br> Hub
+                      River<br></br> Learning
                     </h3>
                     <p className='text-sm my-4'>
                       The name given to the skills learning facilities that take
