@@ -85,7 +85,15 @@ function IndexPage() {
   return (
     <Layout>
       <SEO
-        keywords={[`global river center`, `danish`, `africa`, `development`]}
+        keywords={[
+          `global river center`,
+          `danish`,
+          `africa`,
+          `development`,
+          `building better futures`,
+          `sustainability`,
+          `sdg`,
+        ]}
         title='Building Better Futures for Young People in Non-Urban Africa'
       />
 

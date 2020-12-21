@@ -48,7 +48,15 @@ function Layout({ children }) {
           </div>
         </div>
         <div className='py-12 md:py-0 md:w-1/2'>
-          <form className='w-full max-w-lg'>
+          <form
+            className='w-full max-w-lg'
+            name='contact'
+            method='post'
+            data-netlify='true'
+            data-netlify-honeypot='bot-field'
+          >
+            <input type='hidden' name='form-name' value='contact' />
+
             <div className='flex flex-wrap  -mx-3 mb-6'>
               <div className='w-full md:w-1/2 px-3 mb-6 md:mb-0'>
                 <label
