@@ -94,7 +94,7 @@ function IndexPage() {
           `sustainability`,
           `sdg`,
         ]}
-        title='Building Better Futures for Young People in Non-Urban Africa'
+        title='Global River Center - Building Better Futures'
       />
 
       <BackgroundSection className='hero  min-h-screen  text-white  '></BackgroundSection>

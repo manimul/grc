@@ -6,7 +6,7 @@ const fullConfig = resolveConfig(tailwindConfig);
 module.exports = {
   siteMetadata: {
     title: `Global River Center`,
-    description: `We are building better futures for young people in non-urban Africa`,
+    description: `We are building better futures for young people in non-urban Africa. Our River Center concept combines in-demand services in a sustainable commercial business model. We want to improve the quality of life in non-urban African communities by offering a viable alternative to city migration.`,
     author: `@manimul`,
   },
   plugins: [
