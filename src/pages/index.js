@@ -5,7 +5,6 @@ import CtaNews from '../components/CtaNewsletter';
 import BackgroundImage from 'gatsby-background-image';
 import { graphql, StaticQuery, Link } from 'gatsby';
 import PropTypes from 'prop-types';
-import NewsFeed from '../components/NewsFeed';
 import AdvisorGrid from '../components/AdvisoryGrid';
 import TeamGrid from '../components/TeamGrid';
 import Image from '../components/Image';
@@ -15,6 +14,9 @@ import PartnerRow from '../components/PartnerRow';
 import TheNeed from '../components/TheNeed';
 import CtaTaskforce from '../components/CtaTaskforce';
 import Button from '../components/Button';
+import NewsFeed from '../components/NewsFeed';
+
+//import data from '@iconify/icons-feather/arrow-down-circle';
 
 const BackgroundSection = ({ className }) => (
   <StaticQuery
@@ -27,6 +29,28 @@ const BackgroundSection = ({ className }) => (
             }
           }
         }
+
+        posts: allWpPost(sort: { fields: [date] }) {
+          nodes {
+            title
+            excerpt
+            slug
+            date(formatString: "DD MMMM, YYYY")
+            featuredImage {
+              node {
+                sourceUrl
+                localFile {
+                  childImageSharp {
+                    fluid(quality: 90, maxWidth: 1920) {
+                      ...GatsbyImageSharpFluid_withWebp
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+
         images: allFile {
           edges {
             node {
@@ -174,9 +198,9 @@ function IndexPage() {
 
       <TheNeed extended={false}></TheNeed>
       <TeamGrid fullpage={false}></TeamGrid>
+      <NewsFeed></NewsFeed>
       <AdvisorGrid></AdvisorGrid>
       <CtaNews></CtaNews>
-      <NewsFeed></NewsFeed>
     </Layout>
   );
 }

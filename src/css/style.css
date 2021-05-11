@@ -7,6 +7,18 @@
 * ----------------------------------------------
 **/
 
+#news-post h2 {
+  @apply text-3xl;
+  @apply font-bold;
+}
+
+#news-post a {
+  @apply text-green-700;
+  @apply font-bold;
+  @apply underline;
+  @apply cursor-pointer;
+}
+
 .headroom--pinned.headroom--scrolled {
   background-color: #11204d;
 }
@@ -73,7 +85,7 @@
 
 .accordion__button:before {
   display: inline-block;
-  content: "";
+  content: '';
   height: 10px;
   width: 10px;
   margin-right: 12px;
@@ -82,8 +94,8 @@
   transform: rotate(-45deg);
 }
 
-.accordion__button[aria-expanded="true"]::before,
-.accordion__button[aria-selected="true"]::before {
+.accordion__button[aria-expanded='true']::before,
+.accordion__button[aria-selected='true']::before {
   transform: rotate(45deg);
 }
 

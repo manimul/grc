@@ -16,6 +16,14 @@ module.exports = {
     `gatsby-plugin-smoothscroll`,
 
     {
+      resolve: `gatsby-source-wordpress`,
+      options: {
+        // Available options and their defaults:
+        url: `http://globalrivercenter.kinsta.cloud/graphql`,
+      },
+    },
+
+    {
       resolve: `gatsby-plugin-sharp`,
       options: {
         // Available options and their defaults:

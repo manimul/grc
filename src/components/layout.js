@@ -50,13 +50,11 @@ function Layout({ children }) {
         <div className='py-12 md:py-0 md:w-1/2'>
           <form
             className='w-full max-w-lg'
-            name='contact'
-            method='post'
+            name='grc-contact'
+            method='POST'
             data-netlify='true'
             data-netlify-honeypot='bot-field'
           >
-            <input type='hidden' name='form-name' value='contact' />
-
             <div className='flex flex-wrap  -mx-3 mb-6'>
               <div className='w-full md:w-1/2 px-3 mb-6 md:mb-0'>
                 <label
@@ -120,7 +118,7 @@ function Layout({ children }) {
               <div className='md:w-1/3'>
                 <button
                   className='border-grc-navy text-grc-navy hover:text-white hover:bg-grc-navy inline-block mt-4  border-2 px-4 py-2'
-                  type='button'
+                  type='submit'
                 >
                   Send
                 </button>
