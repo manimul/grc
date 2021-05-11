@@ -14,6 +14,15 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-smoothscroll`,
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        // You can add multiple tracking ids and a pageview event will be fired for all of them.
+        trackingIds: [
+          'UA-105174114-5', // Google Analytics / GA
+        ],
+      },
+    },
 
     {
       resolve: `gatsby-source-wordpress`,
