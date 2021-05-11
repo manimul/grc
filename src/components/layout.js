@@ -68,6 +68,7 @@ function Layout({ children }) {
                   id='grid-first-name'
                   type='text'
                   placeholder='Jane'
+                  name='name'
                 />
               </div>
               <div className='w-full md:w-1/2 px-3'>
@@ -82,6 +83,7 @@ function Layout({ children }) {
                   id='grid-last-name'
                   type='text'
                   placeholder='Doe'
+                  name='surname'
                 />
               </div>
             </div>
@@ -97,6 +99,7 @@ function Layout({ children }) {
                   className='appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500'
                   id='email'
                   type='email'
+                  name='email'
                 />
               </div>
             </div>
@@ -111,6 +114,7 @@ function Layout({ children }) {
                 <textarea
                   className=' no-resize appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none'
                   id='message'
+                  name='message'
                 ></textarea>
               </div>
             </div>
