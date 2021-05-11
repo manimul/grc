@@ -50,7 +50,8 @@ function Layout({ children }) {
         <div className='py-12 md:py-0 md:w-1/2'>
           <form
             className='w-full max-w-lg'
-            name='grc-contact'
+            name='contact-form'
+            id='contact-form'
             method='POST'
             data-netlify='true'
             data-netlify-honeypot='bot-field'
@@ -59,13 +60,13 @@ function Layout({ children }) {
               <div className='w-full md:w-1/2 px-3 mb-6 md:mb-0'>
                 <label
                   className='block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2'
-                  htmlFor='grid-first-name'
+                  htmlFor='name'
                 >
                   First Name
                 </label>
                 <input
                   className='appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white'
-                  id='grid-first-name'
+                  id='name'
                   type='text'
                   placeholder='Jane'
                   name='name'
@@ -74,13 +75,13 @@ function Layout({ children }) {
               <div className='w-full md:w-1/2 px-3'>
                 <label
                   className='block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2'
-                  htmlFor='grid-last-name'
+                  htmlFor='surname'
                 >
                   Last Name
                 </label>
                 <input
                   className='appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500'
-                  id='grid-last-name'
+                  id='surname'
                   type='text'
                   placeholder='Doe'
                   name='surname'
@@ -91,13 +92,14 @@ function Layout({ children }) {
               <div className='w-full px-3'>
                 <label
                   className='block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2'
-                  htmlFor='grid-password'
+                  htmlFor='email'
                 >
                   E-mail
                 </label>
                 <input
                   className='appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500'
                   id='email'
+                  placeholder='you@email.com'
                   type='email'
                   name='email'
                 />
@@ -107,7 +109,7 @@ function Layout({ children }) {
               <div className='w-full px-3'>
                 <label
                   className='block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2'
-                  htmlFor='grid-password'
+                  htmlFor='message'
                 >
                   Message
                 </label>
@@ -120,6 +122,8 @@ function Layout({ children }) {
             </div>
             <div className='md:flex md:items-center'>
               <div className='md:w-1/3'>
+                <input type='hidden' name='form-name' value='contact-form' />
+
                 <button
                   className='border-grc-navy text-grc-navy hover:text-white hover:bg-grc-navy inline-block mt-4  border-2 px-4 py-2'
                   type='submit'
