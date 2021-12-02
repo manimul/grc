@@ -7,6 +7,15 @@
 * ----------------------------------------------
 **/
 
+.box {
+  @apply bg-indigo-700
+		text-gray-100
+		min-w-full
+		h-32
+		min-h-full
+		rounded;
+}
+
 #news-post h2 {
   @apply text-3xl;
   @apply font-bold;

@@ -28,20 +28,20 @@ function PartnersPage() {
         singleNav={false}
       ></HeroSmall>
       <section id='partners-intro' className='[team] p-24'>
-        <div className='text-center  px-24 m-auto mb-4'>
+        <div className='text-center  md:px-24 m-auto mb-4'>
           <h2 className='block text-lg text-black text-opacity-50 uppercase'>
             Our Partners
           </h2>
-          <p className='inline-block text-4xl  font-bold mb-4'>
+          <p className='inline-block md:text-4xl text-2xl  font-bold mb-4'>
             Our strength lies in the contribution of our partners.
           </p>
         </div>
-        <div className='max-w-6xl grid grid-cols-3 gap-12  m-auto justify-center '>
+        <div className='max-w-6xl md:grid md:grid-cols-3 md:gap-12  m-auto justify-center '>
           <div className='col-span-1 self-center '>
             <Image className='bg-grc-navy' filename='partners/dge.png' />
           </div>
 
-          <div className='mt-6 pr-32 col-span-2 '>
+          <div className='mt-6 md:pr-32 col-span-2 '>
             <p className='block text-2xl font-bold mb-1 leading-tight'>DGE</p>
             <p className='mb-4'>
               DGE is an environment and engineering company, offering innovative
@@ -65,7 +65,7 @@ function PartnersPage() {
             </a>
           </div>
 
-          <div className='mt-6 pl-32 col-span-2 '>
+          <div className='mt-6 md:pl-32 col-span-2 '>
             <p className='block text-2xl font-bold mb-1 leading-tight'>Nopef</p>
             <p className='mb-4'>
               The Nordic Project Fund (Nopef) if a fund is issued by the Nordic
@@ -95,7 +95,7 @@ function PartnersPage() {
           <div className='col-span-1  self-center'>
             <Image className='bg-grc-navy' filename='partners/sweco.png' />
           </div>
-          <div className='mt-6 pr-32 col-span-2 '>
+          <div className='mt-6 md:pr-32 col-span-2 '>
             <p className='block text-2xl font-bold mb-1 leading-tight'>Sweco</p>
             <p className='mb-4'>
               Sweco is one of Europe’s leading engineering and architecture firm
@@ -120,7 +120,7 @@ function PartnersPage() {
             </a>
           </div>
 
-          <div className='mt-6 pl-32 col-span-2 '>
+          <div className='mt-6 md:pl-32 col-span-2 '>
             <p className='block text-2xl font-bold mb-1 leading-tight'>NIRAS</p>
             <p className='mb-4'>
               NIRAS is an international, multidisciplinary engineering
@@ -146,6 +146,29 @@ function PartnersPage() {
 
           <div className='col-span-1 self-center'>
             <Image className='bg-grc-navy' filename='partners/niras.png' />
+          </div>
+
+          <div className='col-span-1  self-center'>
+            <Image className='bg-grc-navy' filename='partners/teamscope.png' />
+          </div>
+          <div className='mt-6 md:pr-32 col-span-2 '>
+            <p className='block text-2xl font-bold mb-1 leading-tight'>
+              Teamscope
+            </p>
+            <p className='mb-4'>
+              Teamscope is a data collection app for research. Teamscope makes
+              our research easier by allowing our field team to easily collect
+              and manage data, especially when we are working in offline and
+              remote settings.
+            </p>
+            <a
+              href='https://www.teamscopeapp.com/'
+              target='_blank'
+              rel='noreferrer'
+              className=' underline font-bold block m-auto text-green-700'
+            >
+              Website
+            </a>
           </div>
         </div>
       </section>

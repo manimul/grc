@@ -47,7 +47,7 @@ function NewsFeed() {
                 <div key={node}>
                   <NewsCard
                     title={node.title}
-                    slug={node.slug}
+                    slug={'/news/' + node.slug}
                     image={
                       node.featuredImage &&
                       node.featuredImage.node.localFile.childImageSharp.fluid

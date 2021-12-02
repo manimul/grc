@@ -12,6 +12,14 @@ exports.createPages = ({ graphql, actions }) => {
           slug
         }
       }
+      allWpPartner {
+        nodes {
+          title
+          excerpt
+          content
+          slug
+        }
+      }
     }
   `).then((result) => {
     //highlight-start
@@ -19,6 +27,18 @@ exports.createPages = ({ graphql, actions }) => {
       createPage({
         path: `news/` + node.slug,
         component: path.resolve(`./src/templates/news-post.js`),
+        context: {
+          // This is the $slug variable
+          // passed to blog-post.js
+          slug: node.slug,
+        },
+      });
+    });
+
+    result.data.allWpPartner.nodes.forEach((node) => {
+      createPage({
+        path: `partners/` + node.slug,
+        component: path.resolve(`./src/templates/partner-page.js`),
         context: {
           // This is the $slug variable
           // passed to blog-post.js
