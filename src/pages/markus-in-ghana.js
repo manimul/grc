@@ -1,4 +1,5 @@
 import React from 'react';
+import CtaNews from '../components/CtaNewsletter';
 import Image from '../components/Image';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
@@ -22,18 +23,18 @@ function markusInGhana() {
         />
 
         <section>
-          <div className='w-full bg-grc-navy cta_blue_wiggles  h-screen grid grid-cols-10 mb-24'>
-            <div className='[text-section] min-h-screen text-white row-span-full col-start-2 col-span-7 z-10 self-center justify-self-center  '>
-              <h1 className='text-10xl leading-none heading_shadow font-black uppercase'>
-                A Danishman Abroad
+          <div className='w-full bg-grc-navy cta_blue_wiggles   h-screen grid grid-cols-10 mb-24 '>
+            <div className='[text-section] min-h-screen text-white row-span-full col-start-2 col-span-5 z-10 self-center justify-self-center  '>
+              <h1 className='md:text-10xl text-6xl leading-none heading_shadow font-black uppercase'>
+                My trip to Ghana
               </h1>
-              <p className='text-2xl w-1/3 '>
-                Our intern Markus Buksted Hansen spent a week in late November
-                in Ghana. Here are his experiences.{' '}
+              <p className='md:text-2xl text-xl md:w-1/2 '>
+                Our intern Markus Buksted Hansen spent a week in Ghana. Here are
+                his experiences.{' '}
               </p>
             </div>
 
-            <div className=' -mb-12 min-h-screen row-span-full  col-span-6 col-end-11  '>
+            <div className=' -mb-12 min-h-screen row-span-full  col-span-11  col-end-11 md:col-end-11 md:col-span-6   '>
               <Image
                 className='min-h-full object-cover '
                 filename='markus-trip/day2/2_4.jpg'
@@ -49,7 +50,7 @@ function markusInGhana() {
             className='md:grid  grid-cols-10   gap-4 
            mb-12'
           >
-            <div className=' col-start-3 col-span-4   md:pr-24  '>
+            <div className=' lg:col-start-3 lg:col-span-4  col-start-2 col-span-5   md:pr-12 md:pt-0 p-12  '>
               <h2 className=' md:text-xl uppercase text-xl font-bold   '>
                 Day 1 - Friday
               </h2>
@@ -91,7 +92,9 @@ function markusInGhana() {
                 className='object-cover min-h-half_screen '
                 filename='markus-trip/day1/1_1.jpg'
               ></Image>
-              <p className='p-2 text-center'>description</p>
+              <p className='p-2 text-center'>
+                Me before boarding the flight at CPH Airport.
+              </p>
             </div>
 
             <div className='col-start-1 col-span-6  '>
@@ -99,7 +102,9 @@ function markusInGhana() {
                 className='object-center  h-screen/2'
                 filename='markus-trip/day1/1_2.jpg'
               ></Image>
-              <p className='p-2 text-center'>description</p>
+              <p className='p-2 text-center'>
+                Just outside the airport in Accra.
+              </p>
             </div>
 
             <div className='col-start-7 col-span-4 '>
@@ -107,7 +112,10 @@ function markusInGhana() {
                 className='object-center h-screen/2'
                 filename='markus-trip/day1/1_3.jpg'
               ></Image>
-              <p className='p-2 text-center'>description</p>
+              <p className='p-2 text-center'>
+                All three of us waiting for the shuttle bus to take us to the
+                hotel.
+              </p>
             </div>
           </div>
         </section>
@@ -125,10 +133,10 @@ function markusInGhana() {
                 className='object-cover min-h-half_screen'
                 filename='markus-trip/day2/2_1.jpg'
               ></Image>
-              <p className='p-2 text-center'>description</p>
+              <p className='p-2 text-center'>Hafiz driving us to Bompata.</p>
             </div>
 
-            <div className=' col-start-7 col-span-3 md:pl-12 pb-12'>
+            <div className=' col-start-7 col-span-3 md:pl-12 md:pr-0 pb-12 p-12 '>
               <h2 className=' md:text-xl uppercase text-xl font-bold   '>
                 Day 2 - Saturday
               </h2>
@@ -169,7 +177,9 @@ function markusInGhana() {
                 className='object-center  h-screen/2'
                 filename='markus-trip/day2/2_2.jpg'
               ></Image>
-              <p className='p-2 text-center'>description</p>
+              <p className='p-2 text-center'>
+                We attended a funeral in Bompata.
+              </p>
             </div>
 
             <div className='col-start-5 col-span-5 '>
@@ -177,14 +187,19 @@ function markusInGhana() {
                 className='object-center h-screen/2'
                 filename='markus-trip/day2/2_3.jpg'
               ></Image>
-              <p className='p-2 text-center'>description is known</p>
+              <p className='p-2 text-center'>
+                It was a beautiful drive where I really got to see Ghana for the
+                first time.
+              </p>
             </div>
             <div className='col-start-1 col-span-10 '>
               <Image
                 className='object-center h-screen'
                 filename='markus-trip/day2/2_4.jpg'
               ></Image>
-              <p className='p-2 text-center'>description</p>
+              <p className='p-2 text-center'>
+                We went for an afternoon walk in Bompata
+              </p>
             </div>
           </div>
         </section>
@@ -196,7 +211,7 @@ function markusInGhana() {
             className='md:grid  grid-cols-10   gap-4 
            mb-12'
           >
-            <div className=' col-start-3 col-span-4   md:pr-24  pb-12'>
+            <div className=' lg:col-start-3 lg:col-span-4  col-start-2 col-span-5   md:pr-12 md:pb-12 md:pt-0 md:pl-0 p-12 '>
               <h2 className=' md:text-xl uppercase text-xl font-bold   '>
                 Day 3 - Sunday
               </h2>
@@ -239,7 +254,9 @@ function markusInGhana() {
                 className='object-cover min-h-half_screen'
                 filename='markus-trip/day3/3_1.jpg'
               ></Image>
-              <p className='p-2 text-center'>description</p>
+              <p className='p-2 text-center'>
+                From one of the cities we saw at the drive.
+              </p>
             </div>
 
             <div className='col-start-2 col-span-5  '>
@@ -247,7 +264,9 @@ function markusInGhana() {
                 className='object-center  h-screen/2'
                 filename='markus-trip/day3/3_4.jpg'
               ></Image>
-              <p className='p-2 text-center'>description</p>
+              <p className='p-2 text-center'>
+                A picture with the Paramount Chief in his home.
+              </p>
             </div>
 
             <div className='col-start-7 col-span-3 self-center justify-self-center '>
@@ -261,7 +280,9 @@ function markusInGhana() {
                 className='object-center h-screen/2'
                 filename='markus-trip/day3/3_3.jpg'
               ></Image>
-              <p className='p-2 text-center'>description</p>
+              <p className='p-2 text-center'>
+                We had to taste the delicious coconut water.
+              </p>
             </div>
 
             <div className='col-start-5 col-span-5 '>
@@ -269,28 +290,32 @@ function markusInGhana() {
                 className='object-center h-screen/2'
                 filename='markus-trip/day3/3_2.jpg'
               ></Image>
-              <p className='p-2 text-center'>description</p>
+              <p className='p-2 text-center'>
+                We came to a market at the drive.
+              </p>
             </div>
           </div>
         </section>
 
         {/* DAY FOUR - FOUR IMAGES */}
 
-        <section className='[2-image-default] pb-12'>
+        <section className='[2-image-default] '>
           <div
             className='md:grid  grid-cols-10   gap-4 
            mb-12'
           >
-            <div className='col-start-3 col-span-4  '>
+            <div className='lg:col-start-3 col-start-2 col-span-4  '>
               {' '}
               <Image
                 className='object-cover'
                 filename='markus-trip/day4/4_1.jpg'
               ></Image>
-              <p className='p-2 text-center'>description</p>
+              <p className='p-2 text-center'>
+                Christmas decorations at the hotel in Accra.
+              </p>
             </div>
 
-            <div className=' col-start-7 col-span-3 md:pl-12  pb-12'>
+            <div className=' lg:col-start-7 lg:col-span-3 col-start-6 col-span-4 md:py-0 md:pr-0   p-12'>
               <h2 className=' md:text-xl uppercase text-xl font-bold   '>
                 Day 4 - Monday
               </h2>
@@ -326,7 +351,9 @@ function markusInGhana() {
                 className='object-center  h-screen/2'
                 filename='markus-trip/day4/4_2.jpg'
               ></Image>
-              <p className='p-2 text-center'>description</p>
+              <p className='p-2 text-center'>
+                Suddenly it started to rain heavily at the new hotel.
+              </p>
             </div>
 
             <div className='col-start-6 col-span-6 '>
@@ -334,7 +361,9 @@ function markusInGhana() {
                 className='object-center h-screen/2'
                 filename='markus-trip/day4/4_4.jpg'
               ></Image>
-              <p className='p-2 text-center'>description is known</p>
+              <p className='p-2 text-center'>
+                Us standing in front of the Danish embassy in Accra.
+              </p>
             </div>
           </div>
         </section>
@@ -346,7 +375,7 @@ function markusInGhana() {
             className='md:grid  grid-cols-10   gap-4 
            mb-12'
           >
-            <div className=' col-start-3 col-span-4   md:pr-24  '>
+            <div className=' lg:col-start-3 lg:col-span-4  col-start-2 col-span-5   md:pr-12 md:pl-0 md:pt-0 p-12 '>
               <h2 className=' md:text-xl uppercase text-xl font-bold   '>
                 Day 5 - Tuesday
               </h2>
@@ -385,7 +414,7 @@ function markusInGhana() {
                 className='object-cover min-h-half_screen'
                 filename='markus-trip/day5/5_1.jpg'
               ></Image>
-              <p className='p-2 text-center'>description</p>
+              <p className='p-2 text-center'>Meeting with SPAR.</p>
             </div>
 
             <div className='col-start-1 col-span-6  '>
@@ -393,7 +422,7 @@ function markusInGhana() {
                 className='object-center  h-screen'
                 filename='markus-trip/day5/5_2.jpg'
               ></Image>
-              <p className='p-2 text-center'>description</p>
+              <p className='p-2 text-center'>Blue Skies story.</p>
             </div>
 
             <div className='col-start-7 col-span-4  '>
@@ -401,6 +430,7 @@ function markusInGhana() {
                 className='object-center  h-screen'
                 filename='markus-trip/day5/5_4.jpg'
               ></Image>
+              <p className='p-2 text-center'>Meeting with Blue Skies.</p>
             </div>
           </div>
         </section>
@@ -412,16 +442,18 @@ function markusInGhana() {
             className='md:grid  grid-cols-10   gap-4 
            mb-12'
           >
-            <div className='col-start-3 col-span-4  '>
+            <div className='lg:col-start-3 lg:col-span-4  col-start-2 col-span-4 '>
               {' '}
               <Image
                 className='object-cover'
                 filename='markus-trip/day6/6_1.jpg'
               ></Image>
-              <p className='p-2 text-center'>description</p>
+              <p className='p-2 text-center'>
+                They are building a lot of big new houses.
+              </p>
             </div>
 
-            <div className=' col-start-7 col-span-3 md:pl-12 pb-12'>
+            <div className=' lg:col-start-7 lg:col-span-3 col-start-6 col-span-4 md:pr-0 md:pt-0 p-12'>
               <h2 className=' md:text-xl uppercase text-xl font-bold   '>
                 Day 6 - Wednesday
               </h2>
@@ -475,7 +507,9 @@ function markusInGhana() {
                 className='object-cover  h-screen/2/3'
                 filename='markus-trip/day6/6_4.jpg'
               ></Image>
-              <p className='p-2 text-center'>description</p>
+              <p className='p-2 text-center'>
+                I really got to see a lot of Accra on my walk
+              </p>
             </div>
           </div>
         </section>
@@ -487,7 +521,7 @@ function markusInGhana() {
             className='md:grid  grid-cols-10   gap-4 
            mb-12'
           >
-            <div className=' col-start-3 col-span-4   md:pr-24 '>
+            <div className=' lg:col-start-3 lg:col-span-4  col-start-2 col-span-5   md:pt-0   p-12'>
               <h2 className=' md:text-xl uppercase text-xl font-bold   '>
                 Day 7 - Thursday
               </h2>
@@ -531,7 +565,9 @@ function markusInGhana() {
                 className='object-cover min-h-half_screen'
                 filename='markus-trip/day7/7_1.jpg'
               ></Image>
-              <p className='p-2 text-center'>description</p>
+              <p className='p-2 text-center'>
+                The Independence Arch at the Black Star Square.
+              </p>
             </div>
 
             <div className='col-start-2 col-span-5  '>
@@ -539,7 +575,9 @@ function markusInGhana() {
                 className='object-center  h-screen/2'
                 filename='markus-trip/day7/7_2.jpg'
               ></Image>
-              <p className='p-2 text-center'>description</p>
+              <p className='p-2 text-center'>
+                The famous stairwell at Fort Christiansborg (Osu Castle).
+              </p>
             </div>
 
             <div className='col-start-7 col-span-3 self-center justify-self-center '>
@@ -553,7 +591,9 @@ function markusInGhana() {
                 className='object-center h-screen/2'
                 filename='markus-trip/day7/7_3.jpg'
               ></Image>
-              <p className='p-2 text-center'>description</p>
+              <p className='p-2 text-center'>
+                The market where I got my souvenirs before going home.
+              </p>
             </div>
 
             <div className='col-start-5 col-span-5 '>
@@ -561,10 +601,12 @@ function markusInGhana() {
                 className='object-center h-screen/2'
                 filename='markus-trip/day7/7_4.jpg'
               ></Image>
-              <p className='p-2 text-center'>description</p>
+              <p className='p-2 text-center'>The Black Star Gate</p>
             </div>
           </div>
         </section>
+
+        <CtaNews></CtaNews>
       </Layout>
     </div>
   );
