@@ -28,6 +28,10 @@
   @apply cursor-pointer;
 }
 
+.heading_shadow {
+  text-shadow: 12px 12px 0px #11204d;
+}
+
 .headroom--pinned.headroom--scrolled {
   background-color: #11204d;
 }

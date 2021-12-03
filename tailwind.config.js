@@ -25,6 +25,13 @@ module.exports = {
         raleway: ['raleway', 'sans-serif'],
       },
 
+      fontSize: {
+        '7xl': '5rem',
+        '8xl': '6rem',
+        '9xl': '7rem',
+        '10xl': '8rem',
+      },
+
       gridRow: {
         'span-full': '1/-1',
       },
