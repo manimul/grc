@@ -25,7 +25,7 @@ function markusInGhana() {
         <section>
           <div className='w-full bg-grc-navy cta_blue_wiggles   h-screen grid grid-cols-10 mb-24 '>
             <div className='[text-section] min-h-screen text-white row-span-full col-start-2 col-span-5 z-10 self-center justify-self-center  '>
-              <h1 className='md:text-6xl lg:text-10xl text-6xl leading-none heading_shadow font-black uppercase'>
+              <h1 className='md:text-6xl lg:text-10xl text-4xl leading-none heading_shadow font-black uppercase'>
                 My trip to Ghana
               </h1>
               <p className='md:text-2xl text-xl md:w-1/2 '>
