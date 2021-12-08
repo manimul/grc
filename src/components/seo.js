@@ -88,6 +88,7 @@ SEO.propTypes = {
   description: PropTypes.string,
   keywords: PropTypes.arrayOf(PropTypes.string),
   lang: PropTypes.string,
+  metaImage: PropTypes.string,
   meta: PropTypes.array,
   title: PropTypes.string.isRequired,
 };

@@ -1,10 +1,17 @@
+import Icon from '@iconify/react';
+import { AnchorLink } from 'gatsby-plugin-anchor-links';
 import React from 'react';
 import CtaNews from '../components/CtaNewsletter';
 import Image from '../components/Image';
 import Layout from '../components/layout';
+import arrowDownCircle from '@iconify/icons-feather/arrow-down-circle';
+
 import SEO from '../components/seo';
+import metaImage from '../images/markus-trip/day2/2_4.jpg';
 
 function markusInGhana() {
+  const siteImage = metaImage;
+
   return (
     <div>
       <Layout>
@@ -20,21 +27,32 @@ function markusInGhana() {
             `sdg`,
           ]}
           title='My trip to Ghana'
+          metaImage={siteImage}
         />
 
-        <section>
-          <div className='w-full bg-grc-navy cta_blue_wiggles   h-screen grid grid-cols-10 mb-24 '>
-            <div className='[text-section] min-h-screen text-white row-span-full col-start-2 col-span-5 z-10 self-center justify-self-center  '>
-              <h1 className='md:text-6xl lg:text-10xl text-4xl leading-none heading_shadow font-black uppercase'>
+        <section className='h-screen md:mb-24 mb-6 '>
+          <div className='w-full bg-gradient-to-br from-grc-navy to-black	 h-screen grid grid-cols-10 '>
+            <div className='[text-section] bg-grc-navy p-6 text-white row-span-full md:col-start-2 md:col-span-5 col-start-2 col-span-8 z-10 self-center justify-self-center  '>
+              <h1 className='md:text-6xl lg:text-8xl text-4xl leading-none heading_shadow font-black mb-4'>
                 My trip to Ghana
               </h1>
-              <p className='md:text-2xl text-xl md:w-1/2 '>
-                Our intern Markus Buksted Hansen spent a week in Ghana. Here are
-                his experiences.{' '}
+              <p className='md:text-xl text-lg  '>
+                Our intern{' '}
+                <span className='italic bold '>Markus Buksted Hansen</span>{' '}
+                recetly spent a week in Ghana.It was his first trip to Africa.
+                In this special blog post for Global River Center he shares his
+                experiences from the trip.{' '}
               </p>
+              <AnchorLink to={'#intro'} title='Learn More'>
+                <Icon
+                  className='inline-block mt-4 '
+                  icon={arrowDownCircle}
+                  style={{ fontSize: '60px' }}
+                />
+              </AnchorLink>
             </div>
 
-            <div className=' -mb-12 min-h-screen row-span-full  col-span-11  col-end-11 md:col-end-11 md:col-span-6   '>
+            <div className='h-auto  row-span-full  col-span-11  col-end-11 md:col-end-11 md:col-span-6   '>
               <Image
                 className='min-h-full object-cover '
                 filename='markus-trip/day2/2_4.jpg'
@@ -45,7 +63,7 @@ function markusInGhana() {
 
         {/* DAY ONE - 3 Images */}
 
-        <section className='[2-image-default] '>
+        <section id='intro' className='[2-image-default] '>
           <div
             className='md:grid  grid-cols-10   gap-4 
            mb-12'
@@ -122,7 +140,7 @@ function markusInGhana() {
 
         {/* DAY TWO - FOUR IMAGES */}
 
-        <section className='[2-image-default] pb-12'>
+        <section className='[2-image-default] md:pb-12'>
           <div
             className='md:grid  grid-cols-10   gap-4 
            mb-12'
@@ -239,11 +257,11 @@ function markusInGhana() {
                   When we came back to Bompata we went to the meeting with the
                   Paramount Chief. The Paramount Chief is royal, he owns the
                   land of his area, and his job is to develop his area. When we
-                  stepped into his home it was clear to see how rich he is. He
-                  was very nice to us and it was a good meeting. It was an
-                  incredible privilege to get the opportunity to meet someone of
-                  his standing. After the meeting we went back to the hotel in
-                  Accra and stayed the night there.
+                  stepped into his home it was clear to see how important he
+                  was. He was very nice to us and it was a good meeting. It was
+                  an incredible privilege to get the opportunity to meet someone
+                  of his standing. After the meeting we went back to the hotel
+                  in Accra and stayed the night there.
                 </p>
               </div>
             </div>
@@ -270,7 +288,7 @@ function markusInGhana() {
             </div>
 
             <div className='col-start-7 col-span-3 self-center justify-self-center '>
-              <blockquote className='text-5xl leading-none p-12 font-black'>
+              <blockquote className='md:text-5xl text-4xl leading-none p-12 font-black'>
                 &quot;It was an incredible privilege to get the opportunity to
                 meet someone of his standing &quot;
               </blockquote>
@@ -437,7 +455,7 @@ function markusInGhana() {
 
         {/* DAY FIVE - FOUR IMAGES */}
 
-        <section className='[2-image-default] pb-12'>
+        <section className='[2-image-default] md:pb-12'>
           <div
             className='md:grid  grid-cols-10   gap-4 
            mb-12'
@@ -466,10 +484,9 @@ function markusInGhana() {
                   time to do that yet because of all the meetings. I found a
                   safe route down to the water. One of the first things that hit
                   me was all the big houses there was being built all over town.
-                  It was mostly big houses for rich people. Another interesting
-                  thing was how how close the rich people and the poor people
-                  lived to each other. After seeing these big houses I came by a
-                  huge slum area.
+                  It was mostly big houses for wealthy people. Another
+                  interesting thing was how how close people with different
+                  economic status lived to each other.
                 </p>
                 <p>
                   {' '}
@@ -581,7 +598,7 @@ function markusInGhana() {
             </div>
 
             <div className='col-start-7 col-span-3 self-center justify-self-center '>
-              <blockquote className='text-5xl leading-none p-12 font-black'>
+              <blockquote className='md:text-5xl text-4xl leading-none p-12 font-black'>
                 &quot;It felt a bit sad to leave...it had been such an eye
                 opening trip&quot;
               </blockquote>
